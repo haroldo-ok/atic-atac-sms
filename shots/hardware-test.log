@@ -1,0 +1,12 @@
+rom: AticAtac.sms (2097152 bytes, 128 banks)
+symbols: loaded 220 from AticAtac.noi
+liverender: 1
+psglog: shots/sound-writes.txt (frame 0)
+psgstop: 329 writes (frame 882)
+ok: vdp display 1
+screenshot: /tmp/_smstest_check.ppm (frame 882)
+ok: frame shows 20 distinct colours (>= 8)
+ok: 0 fast VRAM writes during active display (<= 0), 108161 writes total
+spmin: C8A6 (pc 25FD)
+screenshot: shots/hardware.ppm (frame 882)
+RESULT: ALL PASSED

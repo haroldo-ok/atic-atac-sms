@@ -1,0 +1,2824 @@
+symbols AticAtac.noi
+run 120
+hold 1
+run 12
+hold none
+run 30
+waituntil player < 49 1800 w1
+echo Room 0
+poke player_room 0 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 1
+poke player_room 1 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 2
+poke player_room 2 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 3
+poke player_room 3 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 4
+poke player_room 4 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 5
+poke player_room 5 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 6
+poke player_room 6 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 7
+poke player_room 7 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 8
+poke player_room 8 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 9
+poke player_room 9 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 10
+poke player_room 10 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 11
+poke player_room 11 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 12
+poke player_room 12 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 13
+poke player_room 13 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 14
+poke player_room 14 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 15
+poke player_room 15 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 16
+poke player_room 16 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 17
+poke player_room 17 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 18
+poke player_room 18 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 19
+poke player_room 19 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 20
+poke player_room 20 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 21
+poke player_room 21 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 22
+poke player_room 22 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 23
+poke player_room 23 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 24
+poke player_room 24 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 25
+poke player_room 25 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 26
+poke player_room 26 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 27
+poke player_room 27 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 28
+poke player_room 28 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 29
+poke player_room 29 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 30
+poke player_room 30 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 31
+poke player_room 31 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 32
+poke player_room 32 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 33
+poke player_room 33 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 34
+poke player_room 34 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 35
+poke player_room 35 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 36
+poke player_room 36 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 37
+poke player_room 37 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 38
+poke player_room 38 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 39
+poke player_room 39 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 40
+poke player_room 40 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 41
+poke player_room 41 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 42
+poke player_room 42 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 43
+poke player_room 43 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 44
+poke player_room 44 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 45
+poke player_room 45 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 46
+poke player_room 46 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 47
+poke player_room 47 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 48
+poke player_room 48 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 49
+poke player_room 49 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 50
+poke player_room 50 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 51
+poke player_room 51 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 52
+poke player_room 52 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 53
+poke player_room 53 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 54
+poke player_room 54 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 55
+poke player_room 55 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 56
+poke player_room 56 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 57
+poke player_room 57 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 58
+poke player_room 58 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 59
+poke player_room 59 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 60
+poke player_room 60 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 61
+poke player_room 61 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 62
+poke player_room 62 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 63
+poke player_room 63 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 64
+poke player_room 64 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 65
+poke player_room 65 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 66
+poke player_room 66 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 67
+poke player_room 67 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 68
+poke player_room 68 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 69
+poke player_room 69 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 70
+poke player_room 70 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 71
+poke player_room 71 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 72
+poke player_room 72 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 73
+poke player_room 73 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 74
+poke player_room 74 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 75
+poke player_room 75 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 76
+poke player_room 76 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 77
+poke player_room 77 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 78
+poke player_room 78 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 79
+poke player_room 79 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 80
+poke player_room 80 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 81
+poke player_room 81 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 82
+poke player_room 82 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 83
+poke player_room 83 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 84
+poke player_room 84 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 85
+poke player_room 85 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 86
+poke player_room 86 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 87
+poke player_room 87 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 88
+poke player_room 88 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 89
+poke player_room 89 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 90
+poke player_room 90 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 91
+poke player_room 91 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 92
+poke player_room 92 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 93
+poke player_room 93 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 94
+poke player_room 94 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 95
+poke player_room 95 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 96
+poke player_room 96 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 97
+poke player_room 97 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 98
+poke player_room 98 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 99
+poke player_room 99 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 100
+poke player_room 100 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 101
+poke player_room 101 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 102
+poke player_room 102 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 103
+poke player_room 103 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 104
+poke player_room 104 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 105
+poke player_room 105 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 106
+poke player_room 106 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 107
+poke player_room 107 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 108
+poke player_room 108 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 109
+poke player_room 109 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 110
+poke player_room 110 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 111
+poke player_room 111 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 112
+poke player_room 112 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 113
+poke player_room 113 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 114
+poke player_room 114 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 115
+poke player_room 115 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 116
+poke player_room 116 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 117
+poke player_room 117 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 118
+poke player_room 118 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 119
+poke player_room 119 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 120
+poke player_room 120 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 121
+poke player_room 121 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 122
+poke player_room 122 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 123
+poke player_room 123 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 124
+poke player_room 124 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 125
+poke player_room 125 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 126
+poke player_room 126 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 127
+poke player_room 127 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 128
+poke player_room 128 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 129
+poke player_room 129 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 130
+poke player_room 130 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 131
+poke player_room 131 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 132
+poke player_room 132 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 133
+poke player_room 133 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 134
+poke player_room 134 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 135
+poke player_room 135 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 136
+poke player_room 136 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 137
+poke player_room 137 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 138
+poke player_room 138 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 139
+poke player_room 139 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 140
+poke player_room 140 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 141
+poke player_room 141 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 143
+poke player_room 143 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 144
+poke player_room 144 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 145
+poke player_room 145 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 146
+poke player_room 146 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 147
+poke player_room 147 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Room 148
+poke player_room 148 w1
+poke player 1 w1
+poke lives 3 w1
+poke 0xc427 255 w1
+poke player_x 56 w1
+poke player_y 96 w1
+poke health 240 w1
+poke 0xce60 0 w1
+poke 0xce70 0 w1
+poke 0xce80 0 w1
+poke 0xce90 0 w1
+poke 0xcea0 0 w1
+poke 0xceb0 0 w1
+poke 0xcec0 0 w1
+poke 0xced0 0 w1
+run 20
+expectvdp display 1
+expect game_state == 1 w1
+echo Forced end-room path
+poke player_room 142 w1
+waituntil game_state == 3 600 w1
+run 30
+expectvdp display 1

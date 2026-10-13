@@ -1,0 +1,917 @@
+{
+  "source": "AticAtac.sna + AticAtac.GFX",
+  "rooms": 151,
+  "actor_frames": 161,
+  "room_details": [
+    {
+      "room": 0,
+      "tiles": 135,
+      "fixtures": 12,
+      "base_tiles": 123
+    },
+    {
+      "room": 1,
+      "tiles": 101,
+      "fixtures": 4,
+      "base_tiles": 95
+    },
+    {
+      "room": 2,
+      "tiles": 71,
+      "fixtures": 4,
+      "base_tiles": 47
+    },
+    {
+      "room": 3,
+      "tiles": 163,
+      "fixtures": 6,
+      "base_tiles": 140
+    },
+    {
+      "room": 4,
+      "tiles": 73,
+      "fixtures": 5,
+      "base_tiles": 55
+    },
+    {
+      "room": 5,
+      "tiles": 113,
+      "fixtures": 4,
+      "base_tiles": 95
+    },
+    {
+      "room": 6,
+      "tiles": 81,
+      "fixtures": 8,
+      "base_tiles": 63
+    },
+    {
+      "room": 7,
+      "tiles": 107,
+      "fixtures": 4,
+      "base_tiles": 95
+    },
+    {
+      "room": 8,
+      "tiles": 61,
+      "fixtures": 4,
+      "base_tiles": 55
+    },
+    {
+      "room": 9,
+      "tiles": 106,
+      "fixtures": 8,
+      "base_tiles": 94
+    },
+    {
+      "room": 10,
+      "tiles": 62,
+      "fixtures": 4,
+      "base_tiles": 50
+    },
+    {
+      "room": 11,
+      "tiles": 59,
+      "fixtures": 4,
+      "base_tiles": 47
+    },
+    {
+      "room": 12,
+      "tiles": 59,
+      "fixtures": 4,
+      "base_tiles": 47
+    },
+    {
+      "room": 13,
+      "tiles": 88,
+      "fixtures": 6,
+      "base_tiles": 76
+    },
+    {
+      "room": 14,
+      "tiles": 61,
+      "fixtures": 5,
+      "base_tiles": 49
+    },
+    {
+      "room": 15,
+      "tiles": 59,
+      "fixtures": 4,
+      "base_tiles": 47
+    },
+    {
+      "room": 16,
+      "tiles": 47,
+      "fixtures": 3,
+      "base_tiles": 41
+    },
+    {
+      "room": 17,
+      "tiles": 59,
+      "fixtures": 4,
+      "base_tiles": 47
+    },
+    {
+      "room": 18,
+      "tiles": 47,
+      "fixtures": 3,
+      "base_tiles": 35
+    },
+    {
+      "room": 19,
+      "tiles": 92,
+      "fixtures": 6,
+      "base_tiles": 74
+    },
+    {
+      "room": 20,
+      "tiles": 55,
+      "fixtures": 4,
+      "base_tiles": 43
+    },
+    {
+      "room": 21,
+      "tiles": 84,
+      "fixtures": 6,
+      "base_tiles": 61
+    },
+    {
+      "room": 22,
+      "tiles": 60,
+      "fixtures": 4,
+      "base_tiles": 54
+    },
+    {
+      "room": 23,
+      "tiles": 65,
+      "fixtures": 5,
+      "base_tiles": 65
+    },
+    {
+      "room": 24,
+      "tiles": 70,
+      "fixtures": 6,
+      "base_tiles": 64
+    },
+    {
+      "room": 25,
+      "tiles": 51,
+      "fixtures": 4,
+      "base_tiles": 39
+    },
+    {
+      "room": 26,
+      "tiles": 152,
+      "fixtures": 2,
+      "base_tiles": 144
+    },
+    {
+      "room": 27,
+      "tiles": 70,
+      "fixtures": 4,
+      "base_tiles": 52
+    },
+    {
+      "room": 28,
+      "tiles": 145,
+      "fixtures": 2,
+      "base_tiles": 139
+    },
+    {
+      "room": 29,
+      "tiles": 212,
+      "fixtures": 2,
+      "base_tiles": 188
+    },
+    {
+      "room": 30,
+      "tiles": 41,
+      "fixtures": 2,
+      "base_tiles": 35
+    },
+    {
+      "room": 31,
+      "tiles": 99,
+      "fixtures": 3,
+      "base_tiles": 87
+    },
+    {
+      "room": 32,
+      "tiles": 55,
+      "fixtures": 3,
+      "base_tiles": 43
+    },
+    {
+      "room": 33,
+      "tiles": 140,
+      "fixtures": 5,
+      "base_tiles": 111
+    },
+    {
+      "room": 34,
+      "tiles": 57,
+      "fixtures": 3,
+      "base_tiles": 45
+    },
+    {
+      "room": 35,
+      "tiles": 111,
+      "fixtures": 4,
+      "base_tiles": 99
+    },
+    {
+      "room": 36,
+      "tiles": 65,
+      "fixtures": 5,
+      "base_tiles": 47
+    },
+    {
+      "room": 37,
+      "tiles": 97,
+      "fixtures": 3,
+      "base_tiles": 91
+    },
+    {
+      "room": 38,
+      "tiles": 152,
+      "fixtures": 2,
+      "base_tiles": 144
+    },
+    {
+      "room": 39,
+      "tiles": 77,
+      "fixtures": 7,
+      "base_tiles": 59
+    },
+    {
+      "room": 40,
+      "tiles": 41,
+      "fixtures": 2,
+      "base_tiles": 35
+    },
+    {
+      "room": 41,
+      "tiles": 98,
+      "fixtures": 6,
+      "base_tiles": 75
+    },
+    {
+      "room": 42,
+      "tiles": 54,
+      "fixtures": 4,
+      "base_tiles": 42
+    },
+    {
+      "room": 43,
+      "tiles": 51,
+      "fixtures": 4,
+      "base_tiles": 39
+    },
+    {
+      "room": 44,
+      "tiles": 43,
+      "fixtures": 2,
+      "base_tiles": 31
+    },
+    {
+      "room": 45,
+      "tiles": 95,
+      "fixtures": 6,
+      "base_tiles": 72
+    },
+    {
+      "room": 46,
+      "tiles": 52,
+      "fixtures": 4,
+      "base_tiles": 46
+    },
+    {
+      "room": 47,
+      "tiles": 147,
+      "fixtures": 2,
+      "base_tiles": 147
+    },
+    {
+      "room": 48,
+      "tiles": 235,
+      "fixtures": 3,
+      "base_tiles": 199
+    },
+    {
+      "room": 49,
+      "tiles": 224,
+      "fixtures": 2,
+      "base_tiles": 200
+    },
+    {
+      "room": 50,
+      "tiles": 224,
+      "fixtures": 2,
+      "base_tiles": 200
+    },
+    {
+      "room": 51,
+      "tiles": 247,
+      "fixtures": 4,
+      "base_tiles": 211
+    },
+    {
+      "room": 52,
+      "tiles": 224,
+      "fixtures": 2,
+      "base_tiles": 200
+    },
+    {
+      "room": 53,
+      "tiles": 225,
+      "fixtures": 3,
+      "base_tiles": 201
+    },
+    {
+      "room": 54,
+      "tiles": 224,
+      "fixtures": 2,
+      "base_tiles": 200
+    },
+    {
+      "room": 55,
+      "tiles": 224,
+      "fixtures": 2,
+      "base_tiles": 200
+    },
+    {
+      "room": 56,
+      "tiles": 239,
+      "fixtures": 4,
+      "base_tiles": 215
+    },
+    {
+      "room": 57,
+      "tiles": 212,
+      "fixtures": 2,
+      "base_tiles": 188
+    },
+    {
+      "room": 58,
+      "tiles": 224,
+      "fixtures": 3,
+      "base_tiles": 200
+    },
+    {
+      "room": 59,
+      "tiles": 247,
+      "fixtures": 4,
+      "base_tiles": 211
+    },
+    {
+      "room": 60,
+      "tiles": 200,
+      "fixtures": 2,
+      "base_tiles": 188
+    },
+    {
+      "room": 61,
+      "tiles": 251,
+      "fixtures": 5,
+      "base_tiles": 227
+    },
+    {
+      "room": 62,
+      "tiles": 224,
+      "fixtures": 3,
+      "base_tiles": 200
+    },
+    {
+      "room": 63,
+      "tiles": 212,
+      "fixtures": 2,
+      "base_tiles": 200
+    },
+    {
+      "room": 64,
+      "tiles": 259,
+      "fixtures": 4,
+      "base_tiles": 211
+    },
+    {
+      "room": 65,
+      "tiles": 200,
+      "fixtures": 2,
+      "base_tiles": 188
+    },
+    {
+      "room": 66,
+      "tiles": 224,
+      "fixtures": 2,
+      "base_tiles": 200
+    },
+    {
+      "room": 67,
+      "tiles": 259,
+      "fixtures": 4,
+      "base_tiles": 211
+    },
+    {
+      "room": 68,
+      "tiles": 212,
+      "fixtures": 2,
+      "base_tiles": 200
+    },
+    {
+      "room": 69,
+      "tiles": 193,
+      "fixtures": 2,
+      "base_tiles": 193
+    },
+    {
+      "room": 70,
+      "tiles": 236,
+      "fixtures": 3,
+      "base_tiles": 200
+    },
+    {
+      "room": 71,
+      "tiles": 212,
+      "fixtures": 2,
+      "base_tiles": 200
+    },
+    {
+      "room": 72,
+      "tiles": 235,
+      "fixtures": 4,
+      "base_tiles": 211
+    },
+    {
+      "room": 73,
+      "tiles": 212,
+      "fixtures": 2,
+      "base_tiles": 200
+    },
+    {
+      "room": 74,
+      "tiles": 212,
+      "fixtures": 2,
+      "base_tiles": 200
+    },
+    {
+      "room": 75,
+      "tiles": 252,
+      "fixtures": 4,
+      "base_tiles": 228
+    },
+    {
+      "room": 76,
+      "tiles": 227,
+      "fixtures": 3,
+      "base_tiles": 203
+    },
+    {
+      "room": 77,
+      "tiles": 212,
+      "fixtures": 2,
+      "base_tiles": 200
+    },
+    {
+      "room": 78,
+      "tiles": 215,
+      "fixtures": 3,
+      "base_tiles": 203
+    },
+    {
+      "room": 79,
+      "tiles": 224,
+      "fixtures": 2,
+      "base_tiles": 200
+    },
+    {
+      "room": 80,
+      "tiles": 223,
+      "fixtures": 3,
+      "base_tiles": 199
+    },
+    {
+      "room": 81,
+      "tiles": 224,
+      "fixtures": 2,
+      "base_tiles": 200
+    },
+    {
+      "room": 82,
+      "tiles": 212,
+      "fixtures": 2,
+      "base_tiles": 200
+    },
+    {
+      "room": 83,
+      "tiles": 218,
+      "fixtures": 3,
+      "base_tiles": 206
+    },
+    {
+      "room": 84,
+      "tiles": 235,
+      "fixtures": 3,
+      "base_tiles": 199
+    },
+    {
+      "room": 85,
+      "tiles": 223,
+      "fixtures": 3,
+      "base_tiles": 199
+    },
+    {
+      "room": 86,
+      "tiles": 75,
+      "fixtures": 6,
+      "base_tiles": 63
+    },
+    {
+      "room": 87,
+      "tiles": 55,
+      "fixtures": 3,
+      "base_tiles": 43
+    },
+    {
+      "room": 88,
+      "tiles": 55,
+      "fixtures": 3,
+      "base_tiles": 43
+    },
+    {
+      "room": 89,
+      "tiles": 53,
+      "fixtures": 3,
+      "base_tiles": 47
+    },
+    {
+      "room": 90,
+      "tiles": 65,
+      "fixtures": 5,
+      "base_tiles": 53
+    },
+    {
+      "room": 91,
+      "tiles": 80,
+      "fixtures": 6,
+      "base_tiles": 68
+    },
+    {
+      "room": 92,
+      "tiles": 78,
+      "fixtures": 6,
+      "base_tiles": 72
+    },
+    {
+      "room": 93,
+      "tiles": 74,
+      "fixtures": 5,
+      "base_tiles": 68
+    },
+    {
+      "room": 94,
+      "tiles": 53,
+      "fixtures": 3,
+      "base_tiles": 47
+    },
+    {
+      "room": 95,
+      "tiles": 63,
+      "fixtures": 5,
+      "base_tiles": 63
+    },
+    {
+      "room": 96,
+      "tiles": 65,
+      "fixtures": 5,
+      "base_tiles": 59
+    },
+    {
+      "room": 97,
+      "tiles": 88,
+      "fixtures": 5,
+      "base_tiles": 59
+    },
+    {
+      "room": 98,
+      "tiles": 61,
+      "fixtures": 4,
+      "base_tiles": 49
+    },
+    {
+      "room": 99,
+      "tiles": 80,
+      "fixtures": 5,
+      "base_tiles": 68
+    },
+    {
+      "room": 100,
+      "tiles": 57,
+      "fixtures": 4,
+      "base_tiles": 51
+    },
+    {
+      "room": 101,
+      "tiles": 84,
+      "fixtures": 5,
+      "base_tiles": 72
+    },
+    {
+      "room": 102,
+      "tiles": 90,
+      "fixtures": 9,
+      "base_tiles": 90
+    },
+    {
+      "room": 103,
+      "tiles": 41,
+      "fixtures": 2,
+      "base_tiles": 41
+    },
+    {
+      "room": 104,
+      "tiles": 41,
+      "fixtures": 2,
+      "base_tiles": 41
+    },
+    {
+      "room": 105,
+      "tiles": 42,
+      "fixtures": 2,
+      "base_tiles": 42
+    },
+    {
+      "room": 106,
+      "tiles": 55,
+      "fixtures": 3,
+      "base_tiles": 55
+    },
+    {
+      "room": 107,
+      "tiles": 59,
+      "fixtures": 3,
+      "base_tiles": 47
+    },
+    {
+      "room": 108,
+      "tiles": 81,
+      "fixtures": 4,
+      "base_tiles": 75
+    },
+    {
+      "room": 109,
+      "tiles": 74,
+      "fixtures": 5,
+      "base_tiles": 68
+    },
+    {
+      "room": 110,
+      "tiles": 87,
+      "fixtures": 5,
+      "base_tiles": 75
+    },
+    {
+      "room": 111,
+      "tiles": 47,
+      "fixtures": 3,
+      "base_tiles": 41
+    },
+    {
+      "room": 112,
+      "tiles": 37,
+      "fixtures": 4,
+      "base_tiles": 31
+    },
+    {
+      "room": 113,
+      "tiles": 152,
+      "fixtures": 2,
+      "base_tiles": 144
+    },
+    {
+      "room": 114,
+      "tiles": 152,
+      "fixtures": 2,
+      "base_tiles": 144
+    },
+    {
+      "room": 115,
+      "tiles": 76,
+      "fixtures": 4,
+      "base_tiles": 59
+    },
+    {
+      "room": 116,
+      "tiles": 213,
+      "fixtures": 2,
+      "base_tiles": 201
+    },
+    {
+      "room": 117,
+      "tiles": 57,
+      "fixtures": 3,
+      "base_tiles": 45
+    },
+    {
+      "room": 118,
+      "tiles": 98,
+      "fixtures": 5,
+      "base_tiles": 69
+    },
+    {
+      "room": 119,
+      "tiles": 43,
+      "fixtures": 2,
+      "base_tiles": 31
+    },
+    {
+      "room": 120,
+      "tiles": 70,
+      "fixtures": 3,
+      "base_tiles": 47
+    },
+    {
+      "room": 121,
+      "tiles": 43,
+      "fixtures": 2,
+      "base_tiles": 31
+    },
+    {
+      "room": 122,
+      "tiles": 76,
+      "fixtures": 6,
+      "base_tiles": 64
+    },
+    {
+      "room": 123,
+      "tiles": 41,
+      "fixtures": 2,
+      "base_tiles": 35
+    },
+    {
+      "room": 124,
+      "tiles": 47,
+      "fixtures": 4,
+      "base_tiles": 47
+    },
+    {
+      "room": 125,
+      "tiles": 54,
+      "fixtures": 4,
+      "base_tiles": 48
+    },
+    {
+      "room": 126,
+      "tiles": 52,
+      "fixtures": 4,
+      "base_tiles": 46
+    },
+    {
+      "room": 127,
+      "tiles": 49,
+      "fixtures": 4,
+      "base_tiles": 43
+    },
+    {
+      "room": 128,
+      "tiles": 41,
+      "fixtures": 2,
+      "base_tiles": 35
+    },
+    {
+      "room": 129,
+      "tiles": 56,
+      "fixtures": 3,
+      "base_tiles": 44
+    },
+    {
+      "room": 130,
+      "tiles": 65,
+      "fixtures": 5,
+      "base_tiles": 53
+    },
+    {
+      "room": 131,
+      "tiles": 41,
+      "fixtures": 2,
+      "base_tiles": 35
+    },
+    {
+      "room": 132,
+      "tiles": 78,
+      "fixtures": 4,
+      "base_tiles": 72
+    },
+    {
+      "room": 133,
+      "tiles": 43,
+      "fixtures": 2,
+      "base_tiles": 31
+    },
+    {
+      "room": 134,
+      "tiles": 43,
+      "fixtures": 2,
+      "base_tiles": 31
+    },
+    {
+      "room": 135,
+      "tiles": 65,
+      "fixtures": 5,
+      "base_tiles": 53
+    },
+    {
+      "room": 136,
+      "tiles": 64,
+      "fixtures": 5,
+      "base_tiles": 52
+    },
+    {
+      "room": 137,
+      "tiles": 65,
+      "fixtures": 5,
+      "base_tiles": 53
+    },
+    {
+      "room": 138,
+      "tiles": 90,
+      "fixtures": 6,
+      "base_tiles": 84
+    },
+    {
+      "room": 139,
+      "tiles": 76,
+      "fixtures": 4,
+      "base_tiles": 53
+    },
+    {
+      "room": 140,
+      "tiles": 49,
+      "fixtures": 4,
+      "base_tiles": 43
+    },
+    {
+      "room": 141,
+      "tiles": 111,
+      "fixtures": 6,
+      "base_tiles": 94
+    },
+    {
+      "room": 142,
+      "tiles": 33,
+      "fixtures": 1,
+      "base_tiles": 33
+    },
+    {
+      "room": 143,
+      "tiles": 215,
+      "fixtures": 3,
+      "base_tiles": 203
+    },
+    {
+      "room": 144,
+      "tiles": 212,
+      "fixtures": 2,
+      "base_tiles": 188
+    },
+    {
+      "room": 145,
+      "tiles": 228,
+      "fixtures": 3,
+      "base_tiles": 204
+    },
+    {
+      "room": 146,
+      "tiles": 212,
+      "fixtures": 2,
+      "base_tiles": 188
+    },
+    {
+      "room": 147,
+      "tiles": 212,
+      "fixtures": 2,
+      "base_tiles": 188
+    },
+    {
+      "room": 148,
+      "tiles": 212,
+      "fixtures": 2,
+      "base_tiles": 188
+    },
+    {
+      "room": 149,
+      "tiles": 1,
+      "fixtures": 0,
+      "base_tiles": 1
+    },
+    {
+      "room": 150,
+      "tiles": 1,
+      "fixtures": 0,
+      "base_tiles": 1
+    }
+  ],
+  "palette": "Spec256 official raw palette, reduced to SMS 6-bit RGB",
+  "rom_banks": 72,
+  "max_room_tiles": 259,
+  "panel_tiles": 92
+}

@@ -1,0 +1,42 @@
+rom: AticAtac.sms (2097152 bytes, 128 banks)
+symbols: loaded 220 from AticAtac.noi
+ok: waituntil player < 49 (after 218 frames)
+ok: player = 8 >= 1
+ok: original_ticks = 90 > 30
+ok: rendered_frames = 91 > 30
+== Movement
+ok: player_x = 142 > 100
+== Pick up original green key, staged in the starting room
+poke: 0xcac1 <- 0
+poke: 0xcac3 <- 120
+poke: 0xcac4 <- 120
+poke: player_x <- 120
+poke: player_y <- 120
+poke: 0xca92 <- 0
+ok: 0xc432 = 129 == 129
+ok: 0xcac0 = 0 == 0
+== Drop using original FIFO inventory
+ok: 0xc432 = 0 == 0
+ok: 0xc436 = 129 == 129
+== Walk through an actual doorway
+poke: player_x <- 87
+poke: player_y <- 175
+poke: 0xcee8 <- 2
+poke: 0xceed <- 128
+poke: 0xca92 <- 0
+ok: waituntil player_room != 0 (after 3 frames)
+ok: vdp display 1
+screenshot: /tmp/_smstest_check.ppm (frame 478)
+ok: frame shows 24 distinct colours (>= 8)
+screenshot: shots/room-transition.ppm (frame 478)
+== Lose the last life through the original hunger path
+poke: lives <- 0
+poke: health <- 1
+ok: waituntil game_state == 2 (after 12 frames)
+ok: vdp display 1
+screenshot: /tmp/_smstest_check.ppm (frame 520)
+ok: frame shows 2 distinct colours (>= 2)
+screenshot: shots/gameover.ppm (frame 520)
+ok: waituntil game_state == 0 (after 1 frames)
+ok: game_state = 0 == 0
+RESULT: ALL PASSED

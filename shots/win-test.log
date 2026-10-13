@@ -1,0 +1,15 @@
+rom: AticAtac.sms (2097152 bytes, 128 banks)
+symbols: loaded 220 from AticAtac.noi
+ok: waituntil player < 49 (after 218 frames)
+poke: 0xc432 <- 140
+poke: 0xc436 <- 141
+poke: 0xc43a <- 142
+poke: player_x <- 145
+poke: player_y <- 113
+poke: 0xca92 <- 0
+ok: waituntil game_state == 3 (after 21 frames)
+ok: vdp display 1
+screenshot: /tmp/_smstest_check.ppm (frame 401)
+ok: frame shows 2 distinct colours (>= 2)
+screenshot: shots/win.ppm (frame 401)
+RESULT: ALL PASSED

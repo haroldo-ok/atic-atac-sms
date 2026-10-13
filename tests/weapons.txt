@@ -1,0 +1,24 @@
+symbols AticAtac.noi
+run 120
+hold 1
+run 12
+hold none
+run 30
+waituntil player < 49 1800 w1
+echo Original weapon firing
+hold 1
+waituntil 0xca98 > 0 90 w1
+expect 0xca99 == 0 w1
+hold none
+run 45
+echo Original small monster score path
+poke 0xce60 76 w1
+poke 0xce61 0 w1
+poke 0xce63 96 w1
+poke 0xce64 104 w1
+poke 0xce65 71 w1
+poke player_x 96 w1
+poke player_y 104 w1
+waituntil 0xc42c > 0 180 w1
+expect 0xc42b >= 1 w1
+screenshot shots/combat.ppm

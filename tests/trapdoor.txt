@@ -1,0 +1,23 @@
+symbols AticAtac.noi
+run 120
+hold 1
+run 12
+hold none
+run 30
+waituntil player < 49 1800 w1
+poke player_room 115 w1
+poke player_x 88 w1
+poke player_y 106 w1
+poke 0xca92 0 w1
+poke 0xc405 1 w1
+poke health 240 w1
+waituntil last_room == 150 600 w1
+run 30
+screenshot shots/trapdoor.ppm
+waituntil player_room == 116 1200 w1
+run 30
+expect game_state == 1 w1
+expectvdp display 1
+expectcolors 8
+expectpace 0
+screenshot shots/trapdoor-landing.ppm

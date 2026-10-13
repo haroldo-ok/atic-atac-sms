@@ -1,0 +1,2 @@
+run 120
+screenshot shots/title.ppm

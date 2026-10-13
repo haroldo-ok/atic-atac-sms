@@ -1,0 +1,24 @@
+Bundled devkitSMS artifacts (public domain — Unlicense; crt0 is GPL2 with the
+standard linking "special exception"). Source: https://github.com/sverx/devkitSMS
+
+Pinned commit: b172c7433ff690136fee47504a5fd427f62f2d16  (2026-07-02)
+
+IMPORTANT: SMSlib.h, SMSlib.lib, PSGlib.lib and crt0_sms.rel here form ONE
+mutually-consistent set built for the modern SDCC __sdcccall(1) convention and
+REQUIRE SDCC >= 4.2. Never mix this SMSlib.lib with a different-version
+SMSlib.h: several APIs (e.g. SMS_addSprite) changed shape and calling
+convention between releases, producing "undefined _SMS_addSprite" or silent
+ABI corruption. When building an EXISTING project that vendors its own SMSlib,
+use that project's own header+lib together instead of these.
+
+Files:
+  SMSlib.lib      SMS/GG main library (link last-but-one)
+  SMSlib_GG.lib   Game Gear build of SMSlib (use with -DTARGET_GG)
+  PSGlib.lib      PSG music + SFX replayer (link last)
+  crt0_sms.rel    startup / IRQ vectors for SMS (link FIRST, --no-std-crt0)
+  SMSlib.h        header — must match SMSlib.lib (this version)
+  PSGlib.h        header for PSGlib
+  peep-rules.txt  SDCC Z80 peephole rules (--peep-file)
+  ihx2sms.c       .ihx -> .sms converter (pads + fixes checksum); build w/ gcc
+  folder2c.c      folder -> C const arrays (data.c/.h); build w/ gcc
+  assets2banks.py rich asset->bank packer (alternative to folder2c)

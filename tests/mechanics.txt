@@ -1,0 +1,60 @@
+symbols AticAtac.noi
+run 90
+hold 1
+run 12
+hold none
+run 30
+waituntil player < 49 1800 w1
+expect player >= 1 w1
+expect original_ticks > 30 w2
+expect rendered_frames > 30 w2
+echo Movement
+hold right
+run 45
+hold none
+expect player_x > 100 w1
+echo Pick up original green key, staged in the starting room
+poke 0xcac1 0 w1
+poke 0xcac3 120 w1
+poke 0xcac4 120 w1
+poke player_x 120 w1
+poke player_y 120 w1
+poke 0xca92 0 w1
+hold 2
+run 20
+hold none
+expect 0xc432 == 129 w1
+expect 0xcac0 == 0 w1
+run 10
+echo Drop using original FIFO inventory
+hold 2
+run 20
+hold none
+expect 0xc432 == 0 w1
+expect 0xc436 == 129 w1
+echo Walk through an actual doorway
+poke player_x 87 w1
+poke player_y 175 w1
+poke 0xcee8 2 w1
+poke 0xceed 128 w1
+poke 0xca92 0 w1
+hold down
+waituntil player_room != 0 600 w1
+hold none
+run 30
+expectvdp display 1
+expectcolors 8
+screenshot shots/room-transition.ppm
+echo Lose the last life through the original hunger path
+poke lives 0 w1
+poke health 1 w1
+waituntil game_state == 2 1800 w1
+run 30
+expectvdp display 1
+expectcolors 2
+screenshot shots/gameover.ppm
+hold 1
+waituntil game_state == 0 600 w1
+hold none
+run 10
+expect game_state == 0 w1

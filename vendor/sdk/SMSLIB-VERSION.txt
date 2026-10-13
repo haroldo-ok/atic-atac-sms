@@ -1,0 +1,4 @@
+SMSlib subset sources: sverx/devkitSMS commit 533ae572c897cf44f1da865013ebf690134301a3.
+Built locally with SDCC 4.5.0 and VDPTYPE_DETECTION.
+The functions used by this port have signatures matching the bundled header.
+SMSlib licensing: Unlicense; startup licensing: GPL-2 or later with linking exception.

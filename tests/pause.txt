@@ -1,0 +1,13 @@
+symbols AticAtac.noi
+run 120
+hold 1
+run 12
+hold none
+run 120
+pause
+run 10
+expect paused == 1 w1
+pause
+run 10
+expect paused == 0 w1
+expect game_state == 1 w1

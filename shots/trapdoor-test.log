@@ -1,0 +1,19 @@
+rom: AticAtac.sms (2097152 bytes, 128 banks)
+symbols: loaded 220 from AticAtac.noi
+ok: waituntil player < 49 (after 218 frames)
+poke: player_room <- 115
+poke: player_x <- 88
+poke: player_y <- 106
+poke: 0xca92 <- 0
+poke: 0xc405 <- 1
+poke: health <- 240
+ok: waituntil last_room == 150 (after 7 frames)
+screenshot: shots/trapdoor.ppm (frame 417)
+ok: waituntil player_room == 116 (after 98 frames)
+ok: game_state = 1 == 1
+ok: vdp display 1
+screenshot: /tmp/_smstest_check.ppm (frame 545)
+ok: frame shows 15 distinct colours (>= 8)
+ok: 0 fast VRAM writes during active display (<= 0), 211210 writes total
+screenshot: shots/trapdoor-landing.ppm (frame 545)
+RESULT: ALL PASSED

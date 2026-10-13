@@ -1,0 +1,18 @@
+rom: AticAtac.sms (2097152 bytes, 128 banks)
+symbols: loaded 220 from AticAtac.noi
+ok: waituntil player < 49 (after 218 frames)
+== Original weapon firing
+ok: waituntil 0xca98 > 0 (after 4 frames)
+ok: 0xca99 = 0 == 0
+== Original small monster score path
+poke: 0xce60 <- 76
+poke: 0xce61 <- 0
+poke: 0xce63 <- 96
+poke: 0xce64 <- 104
+poke: 0xce65 <- 71
+poke: player_x <- 96
+poke: player_y <- 104
+ok: waituntil 0xc42c > 0 (after 1 frames)
+ok: 0xc42b = 1 >= 1
+screenshot: shots/combat.ppm (frame 430)
+RESULT: ALL PASSED

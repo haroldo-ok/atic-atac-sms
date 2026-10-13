@@ -1,0 +1,20 @@
+symbols AticAtac.noi
+run 120
+hold right
+run 12
+hold none
+run 12
+expect selected_character == 1 w1
+hold 1
+run 12
+hold none
+run 30
+waituntil player < 49 1800 w1
+expect player >= 17 w1
+expect player <= 32 w1
+expect game_state == 1 w1
+hold left
+run 30
+hold none
+expect player_x < 96 w1
+screenshot shots/wizard.ppm

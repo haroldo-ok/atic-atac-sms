@@ -1,0 +1,10 @@
+rom: AticAtac.sms (2097152 bytes, 128 banks)
+symbols: loaded 220 from AticAtac.noi
+ok: selected_character = 1 == 1
+ok: waituntil player < 49 (after 228 frames)
+ok: player = 24 >= 17
+ok: player = 24 <= 32
+ok: game_state = 1 == 1
+ok: player_x = 60 < 96
+screenshot: shots/wizard.ppm (frame 444)
+RESULT: ALL PASSED

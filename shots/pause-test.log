@@ -1,0 +1,8 @@
+rom: AticAtac.sms (2097152 bytes, 128 banks)
+symbols: loaded 220 from AticAtac.noi
+pause (frame 253)
+ok: paused = 1 == 1
+pause (frame 264)
+ok: paused = 0 == 0
+ok: game_state = 1 == 1
+RESULT: ALL PASSED

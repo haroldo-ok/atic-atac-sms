@@ -1,0 +1,3 @@
+skoolkit==10.1
+numpy>=2.0
+Pillow>=10.0

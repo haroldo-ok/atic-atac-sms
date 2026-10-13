@@ -1,0 +1,17 @@
+symbols AticAtac.noi
+liverender 1
+psglog shots/sound-writes.txt
+run 180
+hold 1
+run 12
+hold none
+run 600
+hold 1+right
+run 90
+hold none
+psgstop
+expectvdp display 1
+expectcolors 8
+expectpace 0
+spmin
+screenshot shots/hardware.ppm

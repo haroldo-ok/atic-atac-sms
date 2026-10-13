@@ -1,0 +1,20 @@
+symbols AticAtac.noi
+run 90
+hold 1
+run 12
+hold none
+run 30
+waituntil player < 49 1800 w1
+poke 0xc432 140 w1
+poke 0xc436 141 w1
+poke 0xc43a 142 w1
+poke player_x 145 w1
+poke player_y 113 w1
+poke 0xca92 0 w1
+hold right
+waituntil game_state == 3 900 w1
+hold none
+run 30
+expectvdp display 1
+expectcolors 2
+screenshot shots/win.ppm

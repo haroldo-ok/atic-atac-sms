@@ -1,0 +1,2522 @@
+[
+  {
+    "address": "0x7c19",
+    "old": "21005e",
+    "new": "2100c4",
+    "reason": "RAM relocation: LD HL,$5E00 -> LD HL,$C400"
+  },
+  {
+    "address": "0x7c26",
+    "old": "22015e",
+    "new": "2201c4",
+    "reason": "RAM relocation: LD ($5E01),HL -> LD ($C401),HL"
+  },
+  {
+    "address": "0x7c3a",
+    "old": "3a005e",
+    "new": "3a00c4",
+    "reason": "RAM relocation: LD A,($5E00) -> LD A,($C400)"
+  },
+  {
+    "address": "0x7c73",
+    "old": "32005e",
+    "new": "3200c4",
+    "reason": "RAM relocation: LD ($5E00),A -> LD ($C400),A"
+  },
+  {
+    "address": "0x7cb2",
+    "old": "22015e",
+    "new": "2201c4",
+    "reason": "RAM relocation: LD ($5E01),HL -> LD ($C401),HL"
+  },
+  {
+    "address": "0x7cc3",
+    "old": "32225e",
+    "new": "3222c4",
+    "reason": "RAM relocation: LD ($5E22),A -> LD ($C422),A"
+  },
+  {
+    "address": "0x7d8e",
+    "old": "3a225e",
+    "new": "3a22c4",
+    "reason": "RAM relocation: LD A,($5E22) -> LD A,($C422)"
+  },
+  {
+    "address": "0x7d9f",
+    "old": "32215e",
+    "new": "3221c4",
+    "reason": "RAM relocation: LD ($5E21),A -> LD ($C421),A"
+  },
+  {
+    "address": "0x7da2",
+    "old": "2158eb",
+    "new": "2158cb",
+    "reason": "RAM relocation: LD HL,$EB58 -> LD HL,$CB58"
+  },
+  {
+    "address": "0x7da5",
+    "old": "22555e",
+    "new": "2255c4",
+    "reason": "RAM relocation: LD ($5E55),HL -> LD ($C455),HL"
+  },
+  {
+    "address": "0x7dc3",
+    "old": "31005e",
+    "new": "3100c4",
+    "reason": "RAM relocation: LD SP,$5E00 -> LD SP,$C400"
+  },
+  {
+    "address": "0x7dc8",
+    "old": "32255e",
+    "new": "3225c4",
+    "reason": "RAM relocation: LD ($5E25),A -> LD ($C425),A"
+  },
+  {
+    "address": "0x7dcb",
+    "old": "dd21a8ea",
+    "new": "dd21a8ca",
+    "reason": "RAM relocation: LD IX,$EAA8 -> LD IX,$CAA8"
+  },
+  {
+    "address": "0x7dcf",
+    "old": "3a145e",
+    "new": "3a14c4",
+    "reason": "RAM relocation: LD A,($5E14) -> LD A,($C414)"
+  },
+  {
+    "address": "0x7dd6",
+    "old": "dd21e0ee",
+    "new": "dd21e0ce",
+    "reason": "RAM relocation: LD IX,$EEE0 -> LD IX,$CEE0"
+  },
+  {
+    "address": "0x7ddc",
+    "old": "3a785c",
+    "new": "3a70c4",
+    "reason": "RAM relocation: LD A,($5C78) -> LD A,($C470)"
+  },
+  {
+    "address": "0x7de0",
+    "old": "3a035e",
+    "new": "3a03c4",
+    "reason": "RAM relocation: LD A,($5E03) -> LD A,($C403)"
+  },
+  {
+    "address": "0x7de7",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x7dfb",
+    "old": "1160ee",
+    "new": "1160ce",
+    "reason": "RAM relocation: LD DE,$EE60 -> LD DE,$CE60"
+  },
+  {
+    "address": "0x7e03",
+    "old": "3a785c",
+    "new": "3a70c4",
+    "reason": "RAM relocation: LD A,($5C78) -> LD A,($C470)"
+  },
+  {
+    "address": "0x7e07",
+    "old": "3a035e",
+    "new": "3a03c4",
+    "reason": "RAM relocation: LD A,($5E03) -> LD A,($C403)"
+  },
+  {
+    "address": "0x7e1b",
+    "old": "11e0ee",
+    "new": "11e0ce",
+    "reason": "RAM relocation: LD DE,$EEE0 -> LD DE,$CEE0"
+  },
+  {
+    "address": "0x7e23",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x7e32",
+    "old": "221b5e",
+    "new": "221bc4",
+    "reason": "RAM relocation: LD ($5E1B),HL -> LD ($C41B),HL"
+  },
+  {
+    "address": "0x7e35",
+    "old": "2a1b5e",
+    "new": "2a1bc4",
+    "reason": "RAM relocation: LD HL,($5E1B) -> LD HL,($C41B)"
+  },
+  {
+    "address": "0x7e3b",
+    "old": "221b5e",
+    "new": "221bc4",
+    "reason": "RAM relocation: LD ($5E1B),HL -> LD ($C41B),HL"
+  },
+  {
+    "address": "0x7e44",
+    "old": "2a125e",
+    "new": "2a12c4",
+    "reason": "RAM relocation: LD HL,($5E12) -> LD HL,($C412)"
+  },
+  {
+    "address": "0x7e48",
+    "old": "22125e",
+    "new": "2212c4",
+    "reason": "RAM relocation: LD ($5E12),HL -> LD ($C412),HL"
+  },
+  {
+    "address": "0x7e4b",
+    "old": "21145e",
+    "new": "2114c4",
+    "reason": "RAM relocation: LD HL,$5E14 -> LD HL,$C414"
+  },
+  {
+    "address": "0x7e55",
+    "old": "21145e",
+    "new": "2114c4",
+    "reason": "RAM relocation: LD HL,$5E14 -> LD HL,$C414"
+  },
+  {
+    "address": "0x7e5a",
+    "old": "2a055e",
+    "new": "2a05c4",
+    "reason": "RAM relocation: LD HL,($5E05) -> LD HL,($C405)"
+  },
+  {
+    "address": "0x7e5d",
+    "old": "ed5b785c",
+    "new": "ed5b70c4",
+    "reason": "RAM relocation: LD DE,($5C78) -> LD DE,($C470)"
+  },
+  {
+    "address": "0x7e62",
+    "old": "3a125e",
+    "new": "3a12c4",
+    "reason": "RAM relocation: LD A,($5E12) -> LD A,($C412)"
+  },
+  {
+    "address": "0x7e67",
+    "old": "22055e",
+    "new": "2205c4",
+    "reason": "RAM relocation: LD ($5E05),HL -> LD ($C405),HL"
+  },
+  {
+    "address": "0x7e73",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x7ea0",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x7eb7",
+    "old": "32045e",
+    "new": "3204c4",
+    "reason": "RAM relocation: LD ($5E04),A -> LD ($C404),A"
+  },
+  {
+    "address": "0x7eba",
+    "old": "dd2190ea",
+    "new": "dd2190ca",
+    "reason": "RAM relocation: LD IX,$EA90 -> LD IX,$CA90"
+  },
+  {
+    "address": "0x7ecd",
+    "old": "11a8ea",
+    "new": "11a8ca",
+    "reason": "RAM relocation: LD DE,$EAA8 -> LD DE,$CAA8"
+  },
+  {
+    "address": "0x7ed8",
+    "old": "3a785c",
+    "new": "3a70c4",
+    "reason": "RAM relocation: LD A,($5C78) -> LD A,($C470)"
+  },
+  {
+    "address": "0x7edb",
+    "old": "32035e",
+    "new": "3203c4",
+    "reason": "RAM relocation: LD ($5E03),A -> LD ($C403),A"
+  },
+  {
+    "address": "0x7edf",
+    "old": "32045e",
+    "new": "3204c4",
+    "reason": "RAM relocation: LD ($5E04),A -> LD ($C404),A"
+  },
+  {
+    "address": "0x807d",
+    "old": "1160ee",
+    "new": "1160ce",
+    "reason": "RAM relocation: LD DE,$EE60 -> LD DE,$CE60"
+  },
+  {
+    "address": "0x80cb",
+    "old": "21105e",
+    "new": "2110c4",
+    "reason": "RAM relocation: LD HL,$5E10 -> LD HL,$C410"
+  },
+  {
+    "address": "0x80e8",
+    "old": "3a785c",
+    "new": "3a70c4",
+    "reason": "RAM relocation: LD A,($5C78) -> LD A,($C470)"
+  },
+  {
+    "address": "0x8134",
+    "old": "3a98ea",
+    "new": "3a98ca",
+    "reason": "RAM relocation: LD A,($EA98) -> LD A,($CA98)"
+  },
+  {
+    "address": "0x8139",
+    "old": "3a2d5e",
+    "new": "3a2dc4",
+    "reason": "RAM relocation: LD A,($5E2D) -> LD A,($C42D)"
+  },
+  {
+    "address": "0x8144",
+    "old": "2198ea",
+    "new": "2198ca",
+    "reason": "RAM relocation: LD HL,$EA98 -> LD HL,$CA98"
+  },
+  {
+    "address": "0x814b",
+    "old": "3a98ea",
+    "new": "3a98ca",
+    "reason": "RAM relocation: LD A,($EA98) -> LD A,($CA98)"
+  },
+  {
+    "address": "0x8150",
+    "old": "3a2d5e",
+    "new": "3a2dc4",
+    "reason": "RAM relocation: LD A,($5E2D) -> LD A,($C42D)"
+  },
+  {
+    "address": "0x815b",
+    "old": "2198ea",
+    "new": "2198ca",
+    "reason": "RAM relocation: LD HL,$EA98 -> LD HL,$CA98"
+  },
+  {
+    "address": "0x8172",
+    "old": "dd2198ea",
+    "new": "dd2198ca",
+    "reason": "RAM relocation: LD IX,$EA98 -> LD IX,$CA98"
+  },
+  {
+    "address": "0x817c",
+    "old": "219eea",
+    "new": "219eca",
+    "reason": "RAM relocation: LD HL,$EA9E -> LD HL,$CA9E"
+  },
+  {
+    "address": "0x8181",
+    "old": "32a7ea",
+    "new": "32a7ca",
+    "reason": "RAM relocation: LD ($EAA7),A -> LD ($CAA7),A"
+  },
+  {
+    "address": "0x8186",
+    "old": "329aea",
+    "new": "329aca",
+    "reason": "RAM relocation: LD ($EA9A),A -> LD ($CA9A),A"
+  },
+  {
+    "address": "0x81de",
+    "old": "3a785c",
+    "new": "3a70c4",
+    "reason": "RAM relocation: LD A,($5C78) -> LD A,($C470)"
+  },
+  {
+    "address": "0x81fe",
+    "old": "3a785c",
+    "new": "3a70c4",
+    "reason": "RAM relocation: LD A,($5C78) -> LD A,($C470)"
+  },
+  {
+    "address": "0x8209",
+    "old": "ed5b1d5e",
+    "new": "ed5b1dc4",
+    "reason": "RAM relocation: LD DE,($5E1D) -> LD DE,($C41D)"
+  },
+  {
+    "address": "0x820d",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x8275",
+    "old": "3a1a5e",
+    "new": "3a1ac4",
+    "reason": "RAM relocation: LD A,($5E1A) -> LD A,($C41A)"
+  },
+  {
+    "address": "0x8283",
+    "old": "3a98ea",
+    "new": "3a98ca",
+    "reason": "RAM relocation: LD A,($EA98) -> LD A,($CA98)"
+  },
+  {
+    "address": "0x8288",
+    "old": "3a2d5e",
+    "new": "3a2dc4",
+    "reason": "RAM relocation: LD A,($5E2D) -> LD A,($C42D)"
+  },
+  {
+    "address": "0x82ac",
+    "old": "2198ea",
+    "new": "2198ca",
+    "reason": "RAM relocation: LD HL,$EA98 -> LD HL,$CA98"
+  },
+  {
+    "address": "0x82dc",
+    "old": "2198ea",
+    "new": "2198ca",
+    "reason": "RAM relocation: LD HL,$EA98 -> LD HL,$CA98"
+  },
+  {
+    "address": "0x82f8",
+    "old": "219fea",
+    "new": "219fca",
+    "reason": "RAM relocation: LD HL,$EA9F -> LD HL,$CA9F"
+  },
+  {
+    "address": "0x8301",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x830d",
+    "old": "21255e",
+    "new": "2125c4",
+    "reason": "RAM relocation: LD HL,$5E25 -> LD HL,$C425"
+  },
+  {
+    "address": "0x8323",
+    "old": "ed5b1d5e",
+    "new": "ed5b1dc4",
+    "reason": "RAM relocation: LD DE,($5E1D) -> LD DE,($C41D)"
+  },
+  {
+    "address": "0x8397",
+    "old": "3a90ea",
+    "new": "3a90ca",
+    "reason": "RAM relocation: LD A,($EA90) -> LD A,($CA90)"
+  },
+  {
+    "address": "0x83ea",
+    "old": "3a265e",
+    "new": "3a26c4",
+    "reason": "RAM relocation: LD A,($5E26) -> LD A,($C426)"
+  },
+  {
+    "address": "0x83ee",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x83f4",
+    "old": "21275e",
+    "new": "2127c4",
+    "reason": "RAM relocation: LD HL,$5E27 -> LD HL,$C427"
+  },
+  {
+    "address": "0x83fd",
+    "old": "2160ee",
+    "new": "2160ce",
+    "reason": "RAM relocation: LD HL,$EE60 -> LD HL,$CE60"
+  },
+  {
+    "address": "0x841a",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x8423",
+    "old": "3a785c",
+    "new": "3a70c4",
+    "reason": "RAM relocation: LD A,($5C78) -> LD A,($C470)"
+  },
+  {
+    "address": "0x842f",
+    "old": "ed5b1d5e",
+    "new": "ed5b1dc4",
+    "reason": "RAM relocation: LD DE,($5E1D) -> LD DE,($C41D)"
+  },
+  {
+    "address": "0x844f",
+    "old": "32265e",
+    "new": "3226c4",
+    "reason": "RAM relocation: LD ($5E26),A -> LD ($C426),A"
+  },
+  {
+    "address": "0x8454",
+    "old": "32275e",
+    "new": "3227c4",
+    "reason": "RAM relocation: LD ($5E27),A -> LD ($C427),A"
+  },
+  {
+    "address": "0x8462",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x846b",
+    "old": "21255e",
+    "new": "2125c4",
+    "reason": "RAM relocation: LD HL,$5E25 -> LD HL,$C425"
+  },
+  {
+    "address": "0x847d",
+    "old": "ed5b1d5e",
+    "new": "ed5b1dc4",
+    "reason": "RAM relocation: LD DE,($5E1D) -> LD DE,($C41D)"
+  },
+  {
+    "address": "0x8529",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x853f",
+    "old": "3a90ea",
+    "new": "3a90ca",
+    "reason": "RAM relocation: LD A,($EA90) -> LD A,($CA90)"
+  },
+  {
+    "address": "0x8566",
+    "old": "3a99ea",
+    "new": "3a99ca",
+    "reason": "RAM relocation: LD A,($EA99) -> LD A,($CA99)"
+  },
+  {
+    "address": "0x856f",
+    "old": "3a98ea",
+    "new": "3a98ca",
+    "reason": "RAM relocation: LD A,($EA98) -> LD A,($CA98)"
+  },
+  {
+    "address": "0x8574",
+    "old": "3a9bea",
+    "new": "3a9bca",
+    "reason": "RAM relocation: LD A,($EA9B) -> LD A,($CA9B)"
+  },
+  {
+    "address": "0x8582",
+    "old": "3a9cea",
+    "new": "3a9cca",
+    "reason": "RAM relocation: LD A,($EA9C) -> LD A,($CA9C)"
+  },
+  {
+    "address": "0x8592",
+    "old": "329aea",
+    "new": "329aca",
+    "reason": "RAM relocation: LD ($EA9A),A -> LD ($CA9A),A"
+  },
+  {
+    "address": "0x85b2",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x85bb",
+    "old": "3a90ea",
+    "new": "3a90ca",
+    "reason": "RAM relocation: LD A,($EA90) -> LD A,($CA90)"
+  },
+  {
+    "address": "0x85c3",
+    "old": "3a93ea",
+    "new": "3a93ca",
+    "reason": "RAM relocation: LD A,($EA93) -> LD A,($CA93)"
+  },
+  {
+    "address": "0x85d1",
+    "old": "3a94ea",
+    "new": "3a94ca",
+    "reason": "RAM relocation: LD A,($EA94) -> LD A,($CA94)"
+  },
+  {
+    "address": "0x85e1",
+    "old": "3292ea",
+    "new": "3292ca",
+    "reason": "RAM relocation: LD ($EA92),A -> LD ($CA92),A"
+  },
+  {
+    "address": "0x85fa",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x8603",
+    "old": "21255e",
+    "new": "2125c4",
+    "reason": "RAM relocation: LD HL,$5E25 -> LD HL,$C425"
+  },
+  {
+    "address": "0x861a",
+    "old": "3a90ea",
+    "new": "3a90ca",
+    "reason": "RAM relocation: LD A,($EA90) -> LD A,($CA90)"
+  },
+  {
+    "address": "0x8631",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x863a",
+    "old": "21255e",
+    "new": "2125c4",
+    "reason": "RAM relocation: LD HL,$5E25 -> LD HL,$C425"
+  },
+  {
+    "address": "0x8667",
+    "old": "ed5b1d5e",
+    "new": "ed5b1dc4",
+    "reason": "RAM relocation: LD DE,($5E1D) -> LD DE,($C41D)"
+  },
+  {
+    "address": "0x8675",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x867e",
+    "old": "21255e",
+    "new": "2125c4",
+    "reason": "RAM relocation: LD HL,$5E25 -> LD HL,$C425"
+  },
+  {
+    "address": "0x86a4",
+    "old": "ed5b1d5e",
+    "new": "ed5b1dc4",
+    "reason": "RAM relocation: LD DE,($5E1D) -> LD DE,($C41D)"
+  },
+  {
+    "address": "0x871d",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x8726",
+    "old": "21255e",
+    "new": "2125c4",
+    "reason": "RAM relocation: LD HL,$5E25 -> LD HL,$C425"
+  },
+  {
+    "address": "0x873c",
+    "old": "ed5b1d5e",
+    "new": "ed5b1dc4",
+    "reason": "RAM relocation: LD DE,($5E1D) -> LD DE,($C41D)"
+  },
+  {
+    "address": "0x8763",
+    "old": "3a1a5e",
+    "new": "3a1ac4",
+    "reason": "RAM relocation: LD A,($5E1A) -> LD A,($C41A)"
+  },
+  {
+    "address": "0x878a",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x87a9",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x87b2",
+    "old": "21255e",
+    "new": "2125c4",
+    "reason": "RAM relocation: LD HL,$5E25 -> LD HL,$C425"
+  },
+  {
+    "address": "0x87c4",
+    "old": "ed5b1d5e",
+    "new": "ed5b1dc4",
+    "reason": "RAM relocation: LD DE,($5E1D) -> LD DE,($C41D)"
+  },
+  {
+    "address": "0x886c",
+    "old": "21e0ea",
+    "new": "21e0ca",
+    "reason": "RAM relocation: LD HL,$EAE0 -> LD HL,$CAE0"
+  },
+  {
+    "address": "0x8887",
+    "old": "21c8ea",
+    "new": "21c8ca",
+    "reason": "RAM relocation: LD HL,$EAC8 -> LD HL,$CAC8"
+  },
+  {
+    "address": "0x88a3",
+    "old": "3a125e",
+    "new": "3a12c4",
+    "reason": "RAM relocation: LD A,($5E12) -> LD A,($C412)"
+  },
+  {
+    "address": "0x88e1",
+    "old": "dd21e0ea",
+    "new": "dd21e0ca",
+    "reason": "RAM relocation: LD IX,$EAE0 -> LD IX,$CAE0"
+  },
+  {
+    "address": "0x88e5",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x88f4",
+    "old": "32e1ea",
+    "new": "32e1ca",
+    "reason": "RAM relocation: LD ($EAE1),A -> LD ($CAE1),A"
+  },
+  {
+    "address": "0x88fd",
+    "old": "ed5b93ea",
+    "new": "ed5b93ca",
+    "reason": "RAM relocation: LD DE,($EA93) -> LD DE,($CA93)"
+  },
+  {
+    "address": "0x8918",
+    "old": "ed5b93ea",
+    "new": "ed5b93ca",
+    "reason": "RAM relocation: LD DE,($EA93) -> LD DE,($CA93)"
+  },
+  {
+    "address": "0x8931",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x8939",
+    "old": "ed5b93ea",
+    "new": "ed5b93ca",
+    "reason": "RAM relocation: LD DE,($EA93) -> LD DE,($CA93)"
+  },
+  {
+    "address": "0x8940",
+    "old": "3a125e",
+    "new": "3a12c4",
+    "reason": "RAM relocation: LD A,($5E12) -> LD A,($C412)"
+  },
+  {
+    "address": "0x895d",
+    "old": "3a785c",
+    "new": "3a70c4",
+    "reason": "RAM relocation: LD A,($5C78) -> LD A,($C470)"
+  },
+  {
+    "address": "0x8971",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x89a5",
+    "old": "ed5b93ea",
+    "new": "ed5b93ca",
+    "reason": "RAM relocation: LD DE,($EA93) -> LD DE,($CA93)"
+  },
+  {
+    "address": "0x89ac",
+    "old": "3a125e",
+    "new": "3a12c4",
+    "reason": "RAM relocation: LD A,($5E12) -> LD A,($C412)"
+  },
+  {
+    "address": "0x89bb",
+    "old": "3a90ea",
+    "new": "3a90ca",
+    "reason": "RAM relocation: LD A,($EA90) -> LD A,($CA90)"
+  },
+  {
+    "address": "0x89c3",
+    "old": "ed5b93ea",
+    "new": "ed5b93ca",
+    "reason": "RAM relocation: LD DE,($EA93) -> LD DE,($CA93)"
+  },
+  {
+    "address": "0x89f7",
+    "old": "ed5b93ea",
+    "new": "ed5b93ca",
+    "reason": "RAM relocation: LD DE,($EA93) -> LD DE,($CA93)"
+  },
+  {
+    "address": "0x8a04",
+    "old": "3a125e",
+    "new": "3a12c4",
+    "reason": "RAM relocation: LD A,($5E12) -> LD A,($C412)"
+  },
+  {
+    "address": "0x8a15",
+    "old": "3a285e",
+    "new": "3a28c4",
+    "reason": "RAM relocation: LD A,($5E28) -> LD A,($C428)"
+  },
+  {
+    "address": "0x8a1e",
+    "old": "3a285e",
+    "new": "3a28c4",
+    "reason": "RAM relocation: LD A,($5E28) -> LD A,($C428)"
+  },
+  {
+    "address": "0x8a25",
+    "old": "32285e",
+    "new": "3228c4",
+    "reason": "RAM relocation: LD ($5E28),A -> LD ($C428),A"
+  },
+  {
+    "address": "0x8a32",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x8a3b",
+    "old": "21255e",
+    "new": "2125c4",
+    "reason": "RAM relocation: LD HL,$5E25 -> LD HL,$C425"
+  },
+  {
+    "address": "0x8a75",
+    "old": "ed5b1d5e",
+    "new": "ed5b1dc4",
+    "reason": "RAM relocation: LD DE,($5E1D) -> LD DE,($C41D)"
+  },
+  {
+    "address": "0x8a83",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x8a8c",
+    "old": "21255e",
+    "new": "2125c4",
+    "reason": "RAM relocation: LD HL,$5E25 -> LD HL,$C425"
+  },
+  {
+    "address": "0x8aa6",
+    "old": "3a785c",
+    "new": "3a70c4",
+    "reason": "RAM relocation: LD A,($5C78) -> LD A,($C470)"
+  },
+  {
+    "address": "0x8ad0",
+    "old": "ed5b1d5e",
+    "new": "ed5b1dc4",
+    "reason": "RAM relocation: LD DE,($5E1D) -> LD DE,($C41D)"
+  },
+  {
+    "address": "0x8adb",
+    "old": "2118eb",
+    "new": "2118cb",
+    "reason": "RAM relocation: LD HL,$EB18 -> LD HL,$CB18"
+  },
+  {
+    "address": "0x8b31",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x8b4b",
+    "old": "3a125e",
+    "new": "3a12c4",
+    "reason": "RAM relocation: LD A,($5E12) -> LD A,($C412)"
+  },
+  {
+    "address": "0x8b59",
+    "old": "3a90ea",
+    "new": "3a90ca",
+    "reason": "RAM relocation: LD A,($EA90) -> LD A,($CA90)"
+  },
+  {
+    "address": "0x8b8a",
+    "old": "3a285e",
+    "new": "3a28c4",
+    "reason": "RAM relocation: LD A,($5E28) -> LD A,($C428)"
+  },
+  {
+    "address": "0x8b94",
+    "old": "3a295e",
+    "new": "3a29c4",
+    "reason": "RAM relocation: LD A,($5E29) -> LD A,($C429)"
+  },
+  {
+    "address": "0x8c0b",
+    "old": "3a285e",
+    "new": "3a28c4",
+    "reason": "RAM relocation: LD A,($5E28) -> LD A,($C428)"
+  },
+  {
+    "address": "0x8c0e",
+    "old": "32295e",
+    "new": "3229c4",
+    "reason": "RAM relocation: LD ($5E29),A -> LD ($C429),A"
+  },
+  {
+    "address": "0x8c3b",
+    "old": "22015e",
+    "new": "2201c4",
+    "reason": "RAM relocation: LD ($5E01),HL -> LD ($C401),HL"
+  },
+  {
+    "address": "0x8c7a",
+    "old": "3a285e",
+    "new": "3a28c4",
+    "reason": "RAM relocation: LD A,($5E28) -> LD A,($C428)"
+  },
+  {
+    "address": "0x8c86",
+    "old": "32285e",
+    "new": "3228c4",
+    "reason": "RAM relocation: LD ($5E28),A -> LD ($C428),A"
+  },
+  {
+    "address": "0x8c8d",
+    "old": "323c5e",
+    "new": "323cc4",
+    "reason": "RAM relocation: LD ($5E3C),A -> LD ($C43C),A"
+  },
+  {
+    "address": "0x8cb7",
+    "old": "3a3c5e",
+    "new": "3a3cc4",
+    "reason": "RAM relocation: LD A,($5E3C) -> LD A,($C43C)"
+  },
+  {
+    "address": "0x8cbd",
+    "old": "3a785c",
+    "new": "3a70c4",
+    "reason": "RAM relocation: LD A,($5C78) -> LD A,($C470)"
+  },
+  {
+    "address": "0x8d16",
+    "old": "3a785c",
+    "new": "3a70c4",
+    "reason": "RAM relocation: LD A,($5C78) -> LD A,($C470)"
+  },
+  {
+    "address": "0x8d45",
+    "old": "3a785c",
+    "new": "3a70c4",
+    "reason": "RAM relocation: LD A,($5C78) -> LD A,($C470)"
+  },
+  {
+    "address": "0x8d64",
+    "old": "1190ea",
+    "new": "1190ca",
+    "reason": "RAM relocation: LD DE,$EA90 -> LD DE,$CA90"
+  },
+  {
+    "address": "0x8d77",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x8d7a",
+    "old": "3259ee",
+    "new": "3259ce",
+    "reason": "RAM relocation: LD ($EE59),A -> LD ($CE59),A"
+  },
+  {
+    "address": "0x8dda",
+    "old": "3a785c",
+    "new": "3a70c4",
+    "reason": "RAM relocation: LD A,($5C78) -> LD A,($C470)"
+  },
+  {
+    "address": "0x8e3c",
+    "old": "3a785c",
+    "new": "3a70c4",
+    "reason": "RAM relocation: LD A,($5C78) -> LD A,($C470)"
+  },
+  {
+    "address": "0x8e7b",
+    "old": "3a125e",
+    "new": "3a12c4",
+    "reason": "RAM relocation: LD A,($5E12) -> LD A,($C412)"
+  },
+  {
+    "address": "0x8e82",
+    "old": "3a285e",
+    "new": "3a28c4",
+    "reason": "RAM relocation: LD A,($5E28) -> LD A,($C428)"
+  },
+  {
+    "address": "0x8e88",
+    "old": "32285e",
+    "new": "3228c4",
+    "reason": "RAM relocation: LD ($5E28),A -> LD ($C428),A"
+  },
+  {
+    "address": "0x8ea0",
+    "old": "3a215e",
+    "new": "3a21c4",
+    "reason": "RAM relocation: LD A,($5E21) -> LD A,($C421)"
+  },
+  {
+    "address": "0x8ea8",
+    "old": "32215e",
+    "new": "3221c4",
+    "reason": "RAM relocation: LD ($5E21),A -> LD ($C421),A"
+  },
+  {
+    "address": "0x8eb3",
+    "old": "3a90ea",
+    "new": "3a90ca",
+    "reason": "RAM relocation: LD A,($EA90) -> LD A,($CA90)"
+  },
+  {
+    "address": "0x8eb6",
+    "old": "3297ea",
+    "new": "3297ca",
+    "reason": "RAM relocation: LD ($EA97),A -> LD ($CA97),A"
+  },
+  {
+    "address": "0x8ebd",
+    "old": "3296ea",
+    "new": "3296ca",
+    "reason": "RAM relocation: LD ($EA96),A -> LD ($CA96),A"
+  },
+  {
+    "address": "0x8ec2",
+    "old": "3290ea",
+    "new": "3290ca",
+    "reason": "RAM relocation: LD ($EA90),A -> LD ($CA90),A"
+  },
+  {
+    "address": "0x8ec6",
+    "old": "3a165e",
+    "new": "3a16c4",
+    "reason": "RAM relocation: LD A,($5E16) -> LD A,($C416)"
+  },
+  {
+    "address": "0x8ec9",
+    "old": "3293ea",
+    "new": "3293ca",
+    "reason": "RAM relocation: LD ($EA93),A -> LD ($CA93),A"
+  },
+  {
+    "address": "0x8ecc",
+    "old": "3a175e",
+    "new": "3a17c4",
+    "reason": "RAM relocation: LD A,($5E17) -> LD A,($C417)"
+  },
+  {
+    "address": "0x8ecf",
+    "old": "3294ea",
+    "new": "3294ca",
+    "reason": "RAM relocation: LD ($EA94),A -> LD ($CA94),A"
+  },
+  {
+    "address": "0x8ed2",
+    "old": "3a155e",
+    "new": "3a15c4",
+    "reason": "RAM relocation: LD A,($5E15) -> LD A,($C415)"
+  },
+  {
+    "address": "0x8ed7",
+    "old": "3a285e",
+    "new": "3a28c4",
+    "reason": "RAM relocation: LD A,($5E28) -> LD A,($C428)"
+  },
+  {
+    "address": "0x8ee1",
+    "old": "32285e",
+    "new": "3228c4",
+    "reason": "RAM relocation: LD ($5E28),A -> LD ($C428),A"
+  },
+  {
+    "address": "0x8ee9",
+    "old": "32285e",
+    "new": "3228c4",
+    "reason": "RAM relocation: LD ($5E28),A -> LD ($C428),A"
+  },
+  {
+    "address": "0x8fe9",
+    "old": "211d5e",
+    "new": "211dc4",
+    "reason": "RAM relocation: LD HL,$5E1D -> LD HL,$C41D"
+  },
+  {
+    "address": "0x90cc",
+    "old": "3a92ea",
+    "new": "3a92ca",
+    "reason": "RAM relocation: LD A,($EA92) -> LD A,($CA92)"
+  },
+  {
+    "address": "0x90d2",
+    "old": "3a90ea",
+    "new": "3a90ca",
+    "reason": "RAM relocation: LD A,($EA90) -> LD A,($CA90)"
+  },
+  {
+    "address": "0x90e1",
+    "old": "3a93ea",
+    "new": "3a93ca",
+    "reason": "RAM relocation: LD A,($EA93) -> LD A,($CA93)"
+  },
+  {
+    "address": "0x90f1",
+    "old": "3a94ea",
+    "new": "3a94ca",
+    "reason": "RAM relocation: LD A,($EA94) -> LD A,($CA94)"
+  },
+  {
+    "address": "0x90fb",
+    "old": "3a93ea",
+    "new": "3a93ca",
+    "reason": "RAM relocation: LD A,($EA93) -> LD A,($CA93)"
+  },
+  {
+    "address": "0x9109",
+    "old": "3a94ea",
+    "new": "3a94ca",
+    "reason": "RAM relocation: LD A,($EA94) -> LD A,($CA94)"
+  },
+  {
+    "address": "0x911d",
+    "old": "3291ea",
+    "new": "3291ca",
+    "reason": "RAM relocation: LD ($EA91),A -> LD ($CA91),A"
+  },
+  {
+    "address": "0x9129",
+    "old": "3293ea",
+    "new": "3293ca",
+    "reason": "RAM relocation: LD ($EA93),A -> LD ($CA93),A"
+  },
+  {
+    "address": "0x9139",
+    "old": "3294ea",
+    "new": "3294ca",
+    "reason": "RAM relocation: LD ($EA94),A -> LD ($CA94),A"
+  },
+  {
+    "address": "0x913f",
+    "old": "3a92ea",
+    "new": "3a92ca",
+    "reason": "RAM relocation: LD A,($EA92) -> LD A,($CA92)"
+  },
+  {
+    "address": "0x9144",
+    "old": "3292ea",
+    "new": "3292ca",
+    "reason": "RAM relocation: LD ($EA92),A -> LD ($CA92),A"
+  },
+  {
+    "address": "0x9147",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x915f",
+    "old": "3a125e",
+    "new": "3a12c4",
+    "reason": "RAM relocation: LD A,($5E12) -> LD A,($C412)"
+  },
+  {
+    "address": "0x9167",
+    "old": "3a2e5e",
+    "new": "3a2ec4",
+    "reason": "RAM relocation: LD A,($5E2E) -> LD A,($C42E)"
+  },
+  {
+    "address": "0x916e",
+    "old": "322e5e",
+    "new": "322ec4",
+    "reason": "RAM relocation: LD ($5E2E),A -> LD ($C42E),A"
+  },
+  {
+    "address": "0x9174",
+    "old": "3a2d5e",
+    "new": "3a2dc4",
+    "reason": "RAM relocation: LD A,($5E2D) -> LD A,($C42D)"
+  },
+  {
+    "address": "0x917d",
+    "old": "3a125e",
+    "new": "3a12c4",
+    "reason": "RAM relocation: LD A,($5E12) -> LD A,($C412)"
+  },
+  {
+    "address": "0x9185",
+    "old": "3a2e5e",
+    "new": "3a2ec4",
+    "reason": "RAM relocation: LD A,($5E2E) -> LD A,($C42E)"
+  },
+  {
+    "address": "0x918d",
+    "old": "322e5e",
+    "new": "322ec4",
+    "reason": "RAM relocation: LD ($5E2E),A -> LD ($C42E),A"
+  },
+  {
+    "address": "0x9195",
+    "old": "322e5e",
+    "new": "322ec4",
+    "reason": "RAM relocation: LD ($5E2E),A -> LD ($C42E),A"
+  },
+  {
+    "address": "0x91bc",
+    "old": "3a125e",
+    "new": "3a12c4",
+    "reason": "RAM relocation: LD A,($5E12) -> LD A,($C412)"
+  },
+  {
+    "address": "0x91c5",
+    "old": "3a055e",
+    "new": "3a05c4",
+    "reason": "RAM relocation: LD A,($5E05) -> LD A,($C405)"
+  },
+  {
+    "address": "0x920e",
+    "old": "3a145e",
+    "new": "3a14c4",
+    "reason": "RAM relocation: LD A,($5E14) -> LD A,($C414)"
+  },
+  {
+    "address": "0x9275",
+    "old": "21325e",
+    "new": "2132c4",
+    "reason": "RAM relocation: LD HL,$5E32 -> LD HL,$C432"
+  },
+  {
+    "address": "0x9291",
+    "old": "dd2190ea",
+    "new": "dd2190ca",
+    "reason": "RAM relocation: LD IX,$EA90 -> LD IX,$CA90"
+  },
+  {
+    "address": "0x929b",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x92ae",
+    "old": "1160ee",
+    "new": "1160ce",
+    "reason": "RAM relocation: LD DE,$EE60 -> LD DE,$CE60"
+  },
+  {
+    "address": "0x92bc",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x92cf",
+    "old": "11e0ee",
+    "new": "11e0ce",
+    "reason": "RAM relocation: LD DE,$EEE0 -> LD DE,$CEE0"
+  },
+  {
+    "address": "0x92d8",
+    "old": "3a1f5e",
+    "new": "3a1fc4",
+    "reason": "RAM relocation: LD A,($5E1F) -> LD A,($C41F)"
+  },
+  {
+    "address": "0x92dd",
+    "old": "321f5e",
+    "new": "321fc4",
+    "reason": "RAM relocation: LD ($5E1F),A -> LD ($C41F),A"
+  },
+  {
+    "address": "0x92e2",
+    "old": "32115e",
+    "new": "3211c4",
+    "reason": "RAM relocation: LD ($5E11),A -> LD ($C411),A"
+  },
+  {
+    "address": "0x92ef",
+    "old": "32105e",
+    "new": "3210c4",
+    "reason": "RAM relocation: LD ($5E10),A -> LD ($C410),A"
+  },
+  {
+    "address": "0x92f8",
+    "old": "3a205e",
+    "new": "3a20c4",
+    "reason": "RAM relocation: LD A,($5E20) -> LD A,($C420)"
+  },
+  {
+    "address": "0x92fe",
+    "old": "3a1f5e",
+    "new": "3a1fc4",
+    "reason": "RAM relocation: LD A,($5E1F) -> LD A,($C41F)"
+  },
+  {
+    "address": "0x9305",
+    "old": "3a90ea",
+    "new": "3a90ca",
+    "reason": "RAM relocation: LD A,($EA90) -> LD A,($CA90)"
+  },
+  {
+    "address": "0x9312",
+    "old": "3a1f5e",
+    "new": "3a1fc4",
+    "reason": "RAM relocation: LD A,($5E1F) -> LD A,($C41F)"
+  },
+  {
+    "address": "0x9317",
+    "old": "321f5e",
+    "new": "321fc4",
+    "reason": "RAM relocation: LD ($5E1F),A -> LD ($C41F),A"
+  },
+  {
+    "address": "0x9326",
+    "old": "21305e",
+    "new": "2130c4",
+    "reason": "RAM relocation: LD HL,$5E30 -> LD HL,$C430"
+  },
+  {
+    "address": "0x933c",
+    "old": "3a1a5e",
+    "new": "3a1ac4",
+    "reason": "RAM relocation: LD A,($5E1A) -> LD A,($C41A)"
+  },
+  {
+    "address": "0x934c",
+    "old": "21375e",
+    "new": "2137c4",
+    "reason": "RAM relocation: LD HL,$5E37 -> LD HL,$C437"
+  },
+  {
+    "address": "0x934f",
+    "old": "113b5e",
+    "new": "113bc4",
+    "reason": "RAM relocation: LD DE,$5E3B -> LD DE,$C43B"
+  },
+  {
+    "address": "0x9358",
+    "old": "21385e",
+    "new": "2138c4",
+    "reason": "RAM relocation: LD HL,$5E38 -> LD HL,$C438"
+  },
+  {
+    "address": "0x9367",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x9370",
+    "old": "3a93ea",
+    "new": "3a93ca",
+    "reason": "RAM relocation: LD A,($EA93) -> LD A,($CA93)"
+  },
+  {
+    "address": "0x9375",
+    "old": "3a94ea",
+    "new": "3a94ca",
+    "reason": "RAM relocation: LD A,($EA94) -> LD A,($CA94)"
+  },
+  {
+    "address": "0x9394",
+    "old": "32205e",
+    "new": "3220c4",
+    "reason": "RAM relocation: LD ($5E20),A -> LD ($C420),A"
+  },
+  {
+    "address": "0x93be",
+    "old": "3a005e",
+    "new": "3a00c4",
+    "reason": "RAM relocation: LD A,($5E00) -> LD A,($C400)"
+  },
+  {
+    "address": "0x93e3",
+    "old": "3a90ea",
+    "new": "3a90ca",
+    "reason": "RAM relocation: LD A,($EA90) -> LD A,($CA90)"
+  },
+  {
+    "address": "0x93ea",
+    "old": "3a205e",
+    "new": "3a20c4",
+    "reason": "RAM relocation: LD A,($5E20) -> LD A,($C420)"
+  },
+  {
+    "address": "0x93f0",
+    "old": "3a1f5e",
+    "new": "3a1fc4",
+    "reason": "RAM relocation: LD A,($5E1F) -> LD A,($C41F)"
+  },
+  {
+    "address": "0x93f9",
+    "old": "321f5e",
+    "new": "321fc4",
+    "reason": "RAM relocation: LD ($5E1F),A -> LD ($C41F),A"
+  },
+  {
+    "address": "0x9405",
+    "old": "22305e",
+    "new": "2230c4",
+    "reason": "RAM relocation: LD ($5E30),HL -> LD ($C430),HL"
+  },
+  {
+    "address": "0x9408",
+    "old": "22325e",
+    "new": "2232c4",
+    "reason": "RAM relocation: LD ($5E32),HL -> LD ($C432),HL"
+  },
+  {
+    "address": "0x940e",
+    "old": "3a1f5e",
+    "new": "3a1fc4",
+    "reason": "RAM relocation: LD A,($5E1F) -> LD A,($C41F)"
+  },
+  {
+    "address": "0x9413",
+    "old": "321f5e",
+    "new": "321fc4",
+    "reason": "RAM relocation: LD ($5E1F),A -> LD ($C41F),A"
+  },
+  {
+    "address": "0x9417",
+    "old": "3a1f5e",
+    "new": "3a1fc4",
+    "reason": "RAM relocation: LD A,($5E1F) -> LD A,($C41F)"
+  },
+  {
+    "address": "0x941c",
+    "old": "321f5e",
+    "new": "321fc4",
+    "reason": "RAM relocation: LD ($5E1F),A -> LD ($C41F),A"
+  },
+  {
+    "address": "0x9421",
+    "old": "3a90ea",
+    "new": "3a90ca",
+    "reason": "RAM relocation: LD A,($EA90) -> LD A,($CA90)"
+  },
+  {
+    "address": "0x9428",
+    "old": "3a90ea",
+    "new": "3a90ca",
+    "reason": "RAM relocation: LD A,($EA90) -> LD A,($CA90)"
+  },
+  {
+    "address": "0x942f",
+    "old": "3a90ea",
+    "new": "3a90ca",
+    "reason": "RAM relocation: LD A,($EA90) -> LD A,($CA90)"
+  },
+  {
+    "address": "0x9443",
+    "old": "3a005e",
+    "new": "3a00c4",
+    "reason": "RAM relocation: LD A,($5E00) -> LD A,($C400)"
+  },
+  {
+    "address": "0x944b",
+    "old": "328894",
+    "new": "3297c4",
+    "reason": "RAM relocation: LD ($9488),A -> LD ($C497),A"
+  },
+  {
+    "address": "0x944e",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x9451",
+    "old": "328294",
+    "new": "3291c4",
+    "reason": "RAM relocation: LD ($9482),A -> LD ($C491),A"
+  },
+  {
+    "address": "0x9454",
+    "old": "218194",
+    "new": "2190c4",
+    "reason": "RAM relocation: LD HL,$9481 -> LD HL,$C490"
+  },
+  {
+    "address": "0x9457",
+    "old": "1190ea",
+    "new": "1190ca",
+    "reason": "RAM relocation: LD DE,$EA90 -> LD DE,$CA90"
+  },
+  {
+    "address": "0x9461",
+    "old": "323c5e",
+    "new": "323cc4",
+    "reason": "RAM relocation: LD ($5E3C),A -> LD ($C43C),A"
+  },
+  {
+    "address": "0x9464",
+    "old": "3a215e",
+    "new": "3a21c4",
+    "reason": "RAM relocation: LD A,($5E21) -> LD A,($C421)"
+  },
+  {
+    "address": "0x946d",
+    "old": "dd2190ea",
+    "new": "dd2190ca",
+    "reason": "RAM relocation: LD IX,$EA90 -> LD IX,$CA90"
+  },
+  {
+    "address": "0x9478",
+    "old": "32285e",
+    "new": "3228c4",
+    "reason": "RAM relocation: LD ($5E28),A -> LD ($C428),A"
+  },
+  {
+    "address": "0x94b6",
+    "old": "3a785c",
+    "new": "3a70c4",
+    "reason": "RAM relocation: LD A,($5C78) -> LD A,($C470)"
+  },
+  {
+    "address": "0x94ba",
+    "old": "3a125e",
+    "new": "3a12c4",
+    "reason": "RAM relocation: LD A,($5E12) -> LD A,($C412)"
+  },
+  {
+    "address": "0x94f5",
+    "old": "3a125e",
+    "new": "3a12c4",
+    "reason": "RAM relocation: LD A,($5E12) -> LD A,($C412)"
+  },
+  {
+    "address": "0x94f9",
+    "old": "3a785c",
+    "new": "3a70c4",
+    "reason": "RAM relocation: LD A,($5C78) -> LD A,($C470)"
+  },
+  {
+    "address": "0x9502",
+    "old": "21e0ee",
+    "new": "21e0ce",
+    "reason": "RAM relocation: LD HL,$EEE0 -> LD HL,$CEE0"
+  },
+  {
+    "address": "0x9505",
+    "old": "11e8ee",
+    "new": "11e8ce",
+    "reason": "RAM relocation: LD DE,$EEE8 -> LD DE,$CEE8"
+  },
+  {
+    "address": "0x9580",
+    "old": "2a1d5e",
+    "new": "2a1dc4",
+    "reason": "RAM relocation: LD HL,($5E1D) -> LD HL,($C41D)"
+  },
+  {
+    "address": "0x95a4",
+    "old": "322d5e",
+    "new": "322dc4",
+    "reason": "RAM relocation: LD ($5E2D),A -> LD ($C42D),A"
+  },
+  {
+    "address": "0x95a9",
+    "old": "21e8ea",
+    "new": "21e8ca",
+    "reason": "RAM relocation: LD HL,$EAE8 -> LD HL,$CAE8"
+  },
+  {
+    "address": "0x95bb",
+    "old": "3295ea",
+    "new": "3295ca",
+    "reason": "RAM relocation: LD ($EA95),A -> LD ($CA95),A"
+  },
+  {
+    "address": "0x95c3",
+    "old": "2191ea",
+    "new": "2191ca",
+    "reason": "RAM relocation: LD HL,$EA91 -> LD HL,$CA91"
+  },
+  {
+    "address": "0x95da",
+    "old": "3a785c",
+    "new": "3a70c4",
+    "reason": "RAM relocation: LD A,($5C78) -> LD A,($C470)"
+  },
+  {
+    "address": "0x95e2",
+    "old": "32785c",
+    "new": "3270c4",
+    "reason": "RAM relocation: LD ($5C78),A -> LD ($C470),A"
+  },
+  {
+    "address": "0x95e5",
+    "old": "213f5e",
+    "new": "213fc4",
+    "reason": "RAM relocation: LD HL,$5E3F -> LD HL,$C43F"
+  },
+  {
+    "address": "0x960a",
+    "old": "113d5e",
+    "new": "113dc4",
+    "reason": "RAM relocation: LD DE,$5E3D -> LD DE,$C43D"
+  },
+  {
+    "address": "0x9612",
+    "old": "113f5e",
+    "new": "113fc4",
+    "reason": "RAM relocation: LD DE,$5E3F -> LD DE,$C43F"
+  },
+  {
+    "address": "0x961b",
+    "old": "21325e",
+    "new": "2132c4",
+    "reason": "RAM relocation: LD HL,$5E32 -> LD HL,$C432"
+  },
+  {
+    "address": "0x9662",
+    "old": "22015e",
+    "new": "2201c4",
+    "reason": "RAM relocation: LD ($5E01),HL -> LD ($C401),HL"
+  },
+  {
+    "address": "0x9677",
+    "old": "11545e",
+    "new": "1154c4",
+    "reason": "RAM relocation: LD DE,$5E54 -> LD DE,$C454"
+  },
+  {
+    "address": "0x96b8",
+    "old": "21405e",
+    "new": "2140c4",
+    "reason": "RAM relocation: LD HL,$5E40 -> LD HL,$C440"
+  },
+  {
+    "address": "0x96c9",
+    "old": "21405e",
+    "new": "2140c4",
+    "reason": "RAM relocation: LD HL,$5E40 -> LD HL,$C440"
+  },
+  {
+    "address": "0x96e8",
+    "old": "32545e",
+    "new": "3254c4",
+    "reason": "RAM relocation: LD ($5E54),A -> LD ($C454),A"
+  },
+  {
+    "address": "0x96ec",
+    "old": "2190ea",
+    "new": "2190ca",
+    "reason": "RAM relocation: LD HL,$EA90 -> LD HL,$CA90"
+  },
+  {
+    "address": "0x96f5",
+    "old": "22015e",
+    "new": "2201c4",
+    "reason": "RAM relocation: LD ($5E01),HL -> LD ($C401),HL"
+  },
+  {
+    "address": "0x9748",
+    "old": "3a785c",
+    "new": "3a70c4",
+    "reason": "RAM relocation: LD A,($5C78) -> LD A,($C470)"
+  },
+  {
+    "address": "0x9754",
+    "old": "3a785c",
+    "new": "3a70c4",
+    "reason": "RAM relocation: LD A,($5C78) -> LD A,($C470)"
+  },
+  {
+    "address": "0x980a",
+    "old": "0103ff",
+    "new": "0103df",
+    "reason": "RAM relocation: LD BC,$FF03 -> LD BC,$DF03"
+  },
+  {
+    "address": "0x980e",
+    "old": "0103ff",
+    "new": "0103df",
+    "reason": "RAM relocation: LD BC,$FF03 -> LD BC,$DF03"
+  },
+  {
+    "address": "0x982e",
+    "old": "1113ff",
+    "new": "1113df",
+    "reason": "RAM relocation: LD DE,$FF13 -> LD DE,$DF13"
+  },
+  {
+    "address": "0x987b",
+    "old": "3296ea",
+    "new": "3296ca",
+    "reason": "RAM relocation: LD ($EA96),A -> LD ($CA96),A"
+  },
+  {
+    "address": "0x987f",
+    "old": "3297ea",
+    "new": "3297ca",
+    "reason": "RAM relocation: LD ($EA97),A -> LD ($CA97),A"
+  },
+  {
+    "address": "0x9893",
+    "old": "3a125e",
+    "new": "3a12c4",
+    "reason": "RAM relocation: LD A,($5E12) -> LD A,($C412)"
+  },
+  {
+    "address": "0x98b1",
+    "old": "3a285e",
+    "new": "3a28c4",
+    "reason": "RAM relocation: LD A,($5E28) -> LD A,($C428)"
+  },
+  {
+    "address": "0x98b5",
+    "old": "32285e",
+    "new": "3228c4",
+    "reason": "RAM relocation: LD ($5E28),A -> LD ($C428),A"
+  },
+  {
+    "address": "0x98d2",
+    "old": "3a785c",
+    "new": "3a70c4",
+    "reason": "RAM relocation: LD A,($5C78) -> LD A,($C470)"
+  },
+  {
+    "address": "0x98de",
+    "old": "3a785c",
+    "new": "3a70c4",
+    "reason": "RAM relocation: LD A,($5C78) -> LD A,($C470)"
+  },
+  {
+    "address": "0x98e2",
+    "old": "3a125e",
+    "new": "3a12c4",
+    "reason": "RAM relocation: LD A,($5E12) -> LD A,($C412)"
+  },
+  {
+    "address": "0x98f2",
+    "old": "3a795c",
+    "new": "3a71c4",
+    "reason": "RAM relocation: LD A,($5C79) -> LD A,($C471)"
+  },
+  {
+    "address": "0x98f6",
+    "old": "3a135e",
+    "new": "3a13c4",
+    "reason": "RAM relocation: LD A,($5E13) -> LD A,($C413)"
+  },
+  {
+    "address": "0x9924",
+    "old": "3a125e",
+    "new": "3a12c4",
+    "reason": "RAM relocation: LD A,($5E12) -> LD A,($C412)"
+  },
+  {
+    "address": "0x9928",
+    "old": "3a135e",
+    "new": "3a13c4",
+    "reason": "RAM relocation: LD A,($5E13) -> LD A,($C413)"
+  },
+  {
+    "address": "0x992f",
+    "old": "2a555e",
+    "new": "2a55c4",
+    "reason": "RAM relocation: LD HL,($5E55) -> LD HL,($C455)"
+  },
+  {
+    "address": "0x9936",
+    "old": "22555e",
+    "new": "2255c4",
+    "reason": "RAM relocation: LD ($5E55),HL -> LD ($C455),HL"
+  },
+  {
+    "address": "0x993c",
+    "old": "11d8ed",
+    "new": "11d8cd",
+    "reason": "RAM relocation: LD DE,$EDD8 -> LD DE,$CDD8"
+  },
+  {
+    "address": "0x9944",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x9950",
+    "old": "3a785c",
+    "new": "3a70c4",
+    "reason": "RAM relocation: LD A,($5C78) -> LD A,($C470)"
+  },
+  {
+    "address": "0x995b",
+    "old": "2158eb",
+    "new": "2158cb",
+    "reason": "RAM relocation: LD HL,$EB58 -> LD HL,$CB58"
+  },
+  {
+    "address": "0x995e",
+    "old": "22555e",
+    "new": "2255c4",
+    "reason": "RAM relocation: LD ($5E55),HL -> LD ($C455),HL"
+  },
+  {
+    "address": "0x9beb",
+    "old": "32145e",
+    "new": "3214c4",
+    "reason": "RAM relocation: LD ($5E14),A -> LD ($C414),A"
+  },
+  {
+    "address": "0x9bee",
+    "old": "3a91ea",
+    "new": "3a91ca",
+    "reason": "RAM relocation: LD A,($EA91) -> LD A,($CA91)"
+  },
+  {
+    "address": "0x9bfb",
+    "old": "321a5e",
+    "new": "321ac4",
+    "reason": "RAM relocation: LD ($5E1A),A -> LD ($C41A),A"
+  },
+  {
+    "address": "0x9c05",
+    "old": "3a1a5e",
+    "new": "3a1ac4",
+    "reason": "RAM relocation: LD A,($5E1A) -> LD A,($C41A)"
+  },
+  {
+    "address": "0x9c1a",
+    "old": "321d5e",
+    "new": "321dc4",
+    "reason": "RAM relocation: LD ($5E1D),A -> LD ($C41D),A"
+  },
+  {
+    "address": "0x9c1f",
+    "old": "321e5e",
+    "new": "321ec4",
+    "reason": "RAM relocation: LD ($5E1E),A -> LD ($C41E),A"
+  },
+  {
+    "address": "0x9c91",
+    "old": "32245e",
+    "new": "3224c4",
+    "reason": "RAM relocation: LD ($5E24),A -> LD ($C424),A"
+  },
+  {
+    "address": "0x9c98",
+    "old": "32235e",
+    "new": "3223c4",
+    "reason": "RAM relocation: LD ($5E23),A -> LD ($C423),A"
+  },
+  {
+    "address": "0x9ca5",
+    "old": "3a245e",
+    "new": "3a24c4",
+    "reason": "RAM relocation: LD A,($5E24) -> LD A,($C424)"
+  },
+  {
+    "address": "0x9caf",
+    "old": "3a245e",
+    "new": "3a24c4",
+    "reason": "RAM relocation: LD A,($5E24) -> LD A,($C424)"
+  },
+  {
+    "address": "0x9cbc",
+    "old": "3a235e",
+    "new": "3a23c4",
+    "reason": "RAM relocation: LD A,($5E23) -> LD A,($C423)"
+  },
+  {
+    "address": "0x9cd8",
+    "old": "32235e",
+    "new": "3223c4",
+    "reason": "RAM relocation: LD ($5E23),A -> LD ($C423),A"
+  },
+  {
+    "address": "0x9ce6",
+    "old": "3a245e",
+    "new": "3a24c4",
+    "reason": "RAM relocation: LD A,($5E24) -> LD A,($C424)"
+  },
+  {
+    "address": "0x9cf0",
+    "old": "3a245e",
+    "new": "3a24c4",
+    "reason": "RAM relocation: LD A,($5E24) -> LD A,($C424)"
+  },
+  {
+    "address": "0x9cfd",
+    "old": "3a235e",
+    "new": "3a23c4",
+    "reason": "RAM relocation: LD A,($5E23) -> LD A,($C423)"
+  },
+  {
+    "address": "0x9d34",
+    "old": "3a1a5e",
+    "new": "3a1ac4",
+    "reason": "RAM relocation: LD A,($5E1A) -> LD A,($C41A)"
+  },
+  {
+    "address": "0x9d5b",
+    "old": "3a1a5e",
+    "new": "3a1ac4",
+    "reason": "RAM relocation: LD A,($5E1A) -> LD A,($C41A)"
+  },
+  {
+    "address": "0x9d86",
+    "old": "3a1a5e",
+    "new": "3a1ac4",
+    "reason": "RAM relocation: LD A,($5E1A) -> LD A,($C41A)"
+  },
+  {
+    "address": "0x9db3",
+    "old": "3a1a5e",
+    "new": "3a1ac4",
+    "reason": "RAM relocation: LD A,($5E1A) -> LD A,($C41A)"
+  },
+  {
+    "address": "0x9de1",
+    "old": "3a1a5e",
+    "new": "3a1ac4",
+    "reason": "RAM relocation: LD A,($5E1A) -> LD A,($C41A)"
+  },
+  {
+    "address": "0x9e0e",
+    "old": "3a1a5e",
+    "new": "3a1ac4",
+    "reason": "RAM relocation: LD A,($5E1A) -> LD A,($C41A)"
+  },
+  {
+    "address": "0x9e3b",
+    "old": "3a1a5e",
+    "new": "3a1ac4",
+    "reason": "RAM relocation: LD A,($5E1A) -> LD A,($C41A)"
+  },
+  {
+    "address": "0x9e6b",
+    "old": "3a1a5e",
+    "new": "3a1ac4",
+    "reason": "RAM relocation: LD A,($5E1A) -> LD A,($C41A)"
+  },
+  {
+    "address": "0x9e86",
+    "old": "3a155e",
+    "new": "3a15c4",
+    "reason": "RAM relocation: LD A,($5E15) -> LD A,($C415)"
+  },
+  {
+    "address": "0x9eb5",
+    "old": "3a185e",
+    "new": "3a18c4",
+    "reason": "RAM relocation: LD A,($5E18) -> LD A,($C418)"
+  },
+  {
+    "address": "0x9eb9",
+    "old": "3a195e",
+    "new": "3a19c4",
+    "reason": "RAM relocation: LD A,($5E19) -> LD A,($C419)"
+  },
+  {
+    "address": "0x9ebf",
+    "old": "32185e",
+    "new": "3218c4",
+    "reason": "RAM relocation: LD ($5E18),A -> LD ($C418),A"
+  },
+  {
+    "address": "0x9ec3",
+    "old": "3a195e",
+    "new": "3a19c4",
+    "reason": "RAM relocation: LD A,($5E19) -> LD A,($C419)"
+  },
+  {
+    "address": "0x9ec8",
+    "old": "32195e",
+    "new": "3219c4",
+    "reason": "RAM relocation: LD ($5E19),A -> LD ($C419),A"
+  },
+  {
+    "address": "0x9f4f",
+    "old": "32185e",
+    "new": "3218c4",
+    "reason": "RAM relocation: LD ($5E18),A -> LD ($C418),A"
+  },
+  {
+    "address": "0x9f5c",
+    "old": "32195e",
+    "new": "3219c4",
+    "reason": "RAM relocation: LD ($5E19),A -> LD ($C419),A"
+  },
+  {
+    "address": "0x9f5f",
+    "old": "3a185e",
+    "new": "3a18c4",
+    "reason": "RAM relocation: LD A,($5E18) -> LD A,($C418)"
+  },
+  {
+    "address": "0x9f62",
+    "old": "32115e",
+    "new": "3211c4",
+    "reason": "RAM relocation: LD ($5E11),A -> LD ($C411),A"
+  },
+  {
+    "address": "0x9f6d",
+    "old": "32105e",
+    "new": "3210c4",
+    "reason": "RAM relocation: LD ($5E10),A -> LD ($C410),A"
+  },
+  {
+    "address": "0x9f83",
+    "old": "2a165e",
+    "new": "2a16c4",
+    "reason": "RAM relocation: LD HL,($5E16) -> LD HL,($C416)"
+  },
+  {
+    "address": "0x9f98",
+    "old": "32185e",
+    "new": "3218c4",
+    "reason": "RAM relocation: LD ($5E18),A -> LD ($C418),A"
+  },
+  {
+    "address": "0x9fbb",
+    "old": "32105e",
+    "new": "3210c4",
+    "reason": "RAM relocation: LD ($5E10),A -> LD ($C410),A"
+  },
+  {
+    "address": "0x9fc2",
+    "old": "32195e",
+    "new": "3219c4",
+    "reason": "RAM relocation: LD ($5E19),A -> LD ($C419),A"
+  },
+  {
+    "address": "0x9fc5",
+    "old": "32115e",
+    "new": "3211c4",
+    "reason": "RAM relocation: LD ($5E11),A -> LD ($C411),A"
+  },
+  {
+    "address": "0x9fd1",
+    "old": "3a175e",
+    "new": "3a17c4",
+    "reason": "RAM relocation: LD A,($5E17) -> LD A,($C417)"
+  },
+  {
+    "address": "0x9fde",
+    "old": "3a185e",
+    "new": "3a18c4",
+    "reason": "RAM relocation: LD A,($5E18) -> LD A,($C418)"
+  },
+  {
+    "address": "0x9fe6",
+    "old": "32185e",
+    "new": "3218c4",
+    "reason": "RAM relocation: LD ($5E18),A -> LD ($C418),A"
+  },
+  {
+    "address": "0x9ff0",
+    "old": "3a195e",
+    "new": "3a19c4",
+    "reason": "RAM relocation: LD A,($5E19) -> LD A,($C419)"
+  },
+  {
+    "address": "0x9ffe",
+    "old": "32165e",
+    "new": "3216c4",
+    "reason": "RAM relocation: LD ($5E16),A -> LD ($C416),A"
+  },
+  {
+    "address": "0xa004",
+    "old": "32175e",
+    "new": "3217c4",
+    "reason": "RAM relocation: LD ($5E17),A -> LD ($C417),A"
+  },
+  {
+    "address": "0xa00a",
+    "old": "32155e",
+    "new": "3215c4",
+    "reason": "RAM relocation: LD ($5E15),A -> LD ($C415),A"
+  },
+  {
+    "address": "0xa011",
+    "old": "32165e",
+    "new": "3216c4",
+    "reason": "RAM relocation: LD ($5E16),A -> LD ($C416),A"
+  },
+  {
+    "address": "0xa017",
+    "old": "32175e",
+    "new": "3217c4",
+    "reason": "RAM relocation: LD ($5E17),A -> LD ($C417),A"
+  },
+  {
+    "address": "0xa023",
+    "old": "3a1a5e",
+    "new": "3a1ac4",
+    "reason": "RAM relocation: LD A,($5E1A) -> LD A,($C41A)"
+  },
+  {
+    "address": "0xa027",
+    "old": "3a105e",
+    "new": "3a10c4",
+    "reason": "RAM relocation: LD A,($5E10) -> LD A,($C410)"
+  },
+  {
+    "address": "0xa02b",
+    "old": "3a115e",
+    "new": "3a11c4",
+    "reason": "RAM relocation: LD A,($5E11) -> LD A,($C411)"
+  },
+  {
+    "address": "0xa039",
+    "old": "3a165e",
+    "new": "3a16c4",
+    "reason": "RAM relocation: LD A,($5E16) -> LD A,($C416)"
+  },
+  {
+    "address": "0xa043",
+    "old": "3a175e",
+    "new": "3a17c4",
+    "reason": "RAM relocation: LD A,($5E17) -> LD A,($C417)"
+  },
+  {
+    "address": "0xa13e",
+    "old": "21305e",
+    "new": "2130c4",
+    "reason": "RAM relocation: LD HL,$5E30 -> LD HL,$C430"
+  },
+  {
+    "address": "0xa19c",
+    "old": "212c5e",
+    "new": "212cc4",
+    "reason": "RAM relocation: LD HL,$5E2C -> LD HL,$C42C"
+  },
+  {
+    "address": "0xa1b1",
+    "old": "22015e",
+    "new": "2201c4",
+    "reason": "RAM relocation: LD ($5E01),HL -> LD ($C401),HL"
+  },
+  {
+    "address": "0xa1ba",
+    "old": "112a5e",
+    "new": "112ac4",
+    "reason": "RAM relocation: LD DE,$5E2A -> LD DE,$C42A"
+  },
+  {
+    "address": "0xa1dc",
+    "old": "ed5b015e",
+    "new": "ed5b01c4",
+    "reason": "RAM relocation: LD DE,($5E01) -> LD DE,($C401)"
+  },
+  {
+    "address": "0xa21c",
+    "old": "22015e",
+    "new": "2201c4",
+    "reason": "RAM relocation: LD ($5E01),HL -> LD ($C401),HL"
+  },
+  {
+    "address": "0xa249",
+    "old": "3a1a5e",
+    "new": "3a1ac4",
+    "reason": "RAM relocation: LD A,($5E1A) -> LD A,($C41A)"
+  },
+  {
+    "address": "0xa26c",
+    "old": "3a1a5e",
+    "new": "3a1ac4",
+    "reason": "RAM relocation: LD A,($5E1A) -> LD A,($C41A)"
+  },
+  {
+    "address": "0xa2d4",
+    "old": "3a005e",
+    "new": "3a00c4",
+    "reason": "RAM relocation: LD A,($5E00) -> LD A,($C400)"
+  },
+  {
+    "address": "0xa2ec",
+    "old": "3a215e",
+    "new": "3a21c4",
+    "reason": "RAM relocation: LD A,($5E21) -> LD A,($C421)"
+  },
+  {
+    "address": "0xa3c7",
+    "old": "212f5e",
+    "new": "212fc4",
+    "reason": "RAM relocation: LD HL,$5E2F -> LD HL,$C42F"
+  },
+  {
+    "address": "0xa3e8",
+    "old": "21a0ea",
+    "new": "21a0ca",
+    "reason": "RAM relocation: LD HL,$EAA0 -> LD HL,$CAA0"
+  },
+  {
+    "address": "0xa445",
+    "old": "3a255e",
+    "new": "3a25c4",
+    "reason": "RAM relocation: LD A,($5E25) -> LD A,($C425)"
+  },
+  {
+    "address": "0x8093",
+    "old": "21",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0x809a",
+    "old": "c5",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0x80aa",
+    "old": "cd",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0x80b4",
+    "old": "21",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0x80c2",
+    "old": "21",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0x8b8a",
+    "old": "3a",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0x91fe",
+    "old": "dd",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0x9213",
+    "old": "dd",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0x9489",
+    "old": "f3",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0x9962",
+    "old": "21",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0x9980",
+    "old": "21",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0x9f4a",
+    "old": "cd",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0x9f56",
+    "old": "cd",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0x9fca",
+    "old": "cd",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0xa00e",
+    "old": "dd",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0xa01a",
+    "old": "dd",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0xa13b",
+    "old": "11",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0xa185",
+    "old": "dd",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0xa1ae",
+    "old": "21",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0xa1bf",
+    "old": "1a",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0xa1c9",
+    "old": "1a",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0xa1d3",
+    "old": "c5",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0xa1f3",
+    "old": "e5",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0xa1ff",
+    "old": "d9",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0xa219",
+    "old": "21",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0xa240",
+    "old": "21",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0xa2ce",
+    "old": "dd",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0xa311",
+    "old": "dd",
+    "new": "c9",
+    "reason": "Spectrum display service replaced by native SMS renderer"
+  },
+  {
+    "address": "0x7c19",
+    "old": "2100c4",
+    "new": "c3e421",
+    "reason": "SMS platform: title"
+  },
+  {
+    "address": "0x7c29",
+    "old": "cdaa80",
+    "new": "c3e421",
+    "reason": "SMS platform: title"
+  },
+  {
+    "address": "0x7dc3",
+    "old": "3100c4",
+    "new": "c3bb21",
+    "reason": "SMS platform: main"
+  },
+  {
+    "address": "0x9bea",
+    "old": "af3214",
+    "new": "c3ad20",
+    "reason": "SMS platform: room"
+  },
+  {
+    "address": "0x96af",
+    "old": "4fcb39",
+    "new": "c34222",
+    "reason": "SMS platform: visit"
+  },
+  {
+    "address": "0x93be",
+    "old": "3a00c4",
+    "new": "c3f520",
+    "reason": "SMS platform: controls"
+  },
+  {
+    "address": "0x938b",
+    "old": "3e7ed3",
+    "new": "c3d120",
+    "reason": "SMS platform: pickup"
+  },
+  {
+    "address": "0x80cb",
+    "old": "2110c4",
+    "new": "c36b21",
+    "reason": "SMS platform: clearvars"
+  },
+  {
+    "address": "0x8cb7",
+    "old": "3a3cc4",
+    "new": "c31c21",
+    "reason": "SMS platform: rise"
+  },
+  {
+    "address": "0x8d45",
+    "old": "3a70c4",
+    "new": "c34021",
+    "reason": "SMS platform: sink"
+  },
+  {
+    "address": "0x8c35",
+    "old": "cd9380",
+    "new": "c3ee21",
+    "reason": "SMS platform: gameover"
+  },
+  {
+    "address": "0x96ec",
+    "old": "2190ca",
+    "new": "c3fb21",
+    "reason": "SMS platform: win"
+  },
+  {
+    "address": "0x973a",
+    "old": "cd9380",
+    "new": "c30822",
+    "reason": "SMS platform: fall"
+  },
+  {
+    "address": "0x9522",
+    "old": "d8eb18",
+    "new": "c32e22",
+    "reason": "SMS platform: door_end"
+  },
+  {
+    "address": "0xa3aa",
+    "old": "3e10d3",
+    "new": "c38f21",
+    "reason": "SMS platform: sound"
+  },
+  {
+    "address": "0x7e90",
+    "old": "c3b05c",
+    "new": "e90000",
+    "reason": "Replace original ROM JP(HL) trampoline"
+  },
+  {
+    "address": "0x7e98",
+    "old": "7d75",
+    "new": "7d95",
+    "reason": "Template to relocated live-record bias"
+  },
+  {
+    "address": "0x9045",
+    "old": "7d75",
+    "new": "7d95",
+    "reason": "Template to relocated live-record bias"
+  },
+  {
+    "address": "0x7db1",
+    "old": "cdb694",
+    "new": "cd618d",
+    "reason": "Copy castle before randomizing live keys"
+  },
+  {
+    "address": "0x7db4",
+    "old": "cdd298",
+    "new": "cdb694",
+    "reason": "Place ACG pieces in live RAM"
+  },
+  {
+    "address": "0x7db7",
+    "old": "cd618d",
+    "new": "cdd298",
+    "reason": "Place coloured keys in live RAM"
+  },
+  {
+    "address": "0x94cc",
+    "old": "2660",
+    "new": "a9ca",
+    "reason": "ACG live room field"
+  },
+  {
+    "address": "0x98dc",
+    "old": "3e60",
+    "new": "c1ca",
+    "reason": "Key placement writes live records, never cartridge ROM"
+  },
+  {
+    "address": "0x98ed",
+    "old": "4660",
+    "new": "c9ca",
+    "reason": "Key placement writes live records, never cartridge ROM"
+  },
+  {
+    "address": "0x98f0",
+    "old": "0e64",
+    "new": "91ce",
+    "reason": "Key placement writes live records, never cartridge ROM"
+  },
+  {
+    "address": "0x9901",
+    "old": "4e60",
+    "new": "d1ca",
+    "reason": "Key placement writes live records, never cartridge ROM"
+  },
+  {
+    "address": "0xa471",
+    "old": "210000",
+    "new": "c36622",
+    "reason": "SMS platform: noise"
+  },
+  {
+    "address": "0x8c97",
+    "old": "21",
+    "new": "c9",
+    "reason": "HUD score flash handled by native display"
+  },
+  {
+    "address": "0x8ca7",
+    "old": "21",
+    "new": "c9",
+    "reason": "HUD score flash handled by native display"
+  }
+]

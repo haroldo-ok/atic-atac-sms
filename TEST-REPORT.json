@@ -1,0 +1,30 @@
+{
+  "rom_bytes": 2097152,
+  "sha256": "1b2948f5cee2f4170fdb73c63a3062dca50d746fc0997e02f8c029add01734e8",
+  "sega_header": "PASS",
+  "checksum_128k": 8168,
+  "castle_template_and_room_lists_unchanged": true,
+  "full_dispatch_table_preserved": true,
+  "room_entries_converted": 151,
+  "original_actor_frames_converted": 161,
+  "colour_key_variants": 4,
+  "original_trapdoor_animation_frames": 128,
+  "ram_end": "0xc217",
+  "sprite_pattern_pool": "260-315 (56 tiles)",
+  "background_room_tiles": "0-259",
+  "panel_tiles": "316-407",
+  "dynamic_hud_tiles": "408-447",
+  "emulator_tests": {
+    "mechanics": "PASS",
+    "win": "PASS",
+    "characters": "PASS",
+    "serf": "PASS",
+    "pause": "PASS",
+    "hardware": "PASS",
+    "rooms": "PASS",
+    "weapons": "PASS",
+    "trapdoor": "PASS"
+  },
+  "physical_hardware_tested": false,
+  "full_unstaged_playthrough": false
+}
